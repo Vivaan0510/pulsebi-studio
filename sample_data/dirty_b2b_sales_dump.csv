@@ -1,0 +1,915 @@
+Vch_Booking_Date,Party_Ledger_Name,Item_Particulars,Billed_Qty,Gross_Invoice_INR,Region_Zone
+2025-12-11,Shree Ganesh Enterprises,Heavy-Duty Packaging Roll,5.0,"₹ 5,734.85",West-MH
+2026-05-19,  Pinnacle MedTech Corp ,Heavy-Duty Packaging Roll,40.0,48998.75,North-DL
+2026-06-01,Vanguard Retail Group,Industrial Sensor Kit v2,5.0,22059.55,South-KA
+2026-02-02,Bharat Hardware,Industrial Sensor Kit v2,2.0,9100.67,South-KA
+2026-06-07,Apex Electronics Pvt Ltd,Precision Bearing Assembly,5.0,14019.93,South-KA
+2026/01/21 00:00,  Pinnacle Medtech ,Heavy-Duty Packaging Roll,31.0,"INR 37,600",West-MH
+2026-03-06,Metro Office Solutions,Heavy-Duty Packaging Roll,7.0,8349.73,West-MH
+2026-09-05,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,27.0,"INR 30,891",West-GJ
+30-Mar-2026,Shree Ganesh Ent.,Heavy-Duty Packaging Roll,8.0,10021.92,West-MH
+01-Aug-2026,Vangaurd Retail Group,High-Tensile Fastener Box,47.0,46533.67,West-GJ
+2025-12-25,Kurla Logistics & Packaging,Smart Power Relay Module,1.0,3102.71,South-KA
+2025-12-24,  Vanguard Retail Group ,Industrial Sensor Kit v2,5.0,22007.10,North-DL
+2025/11/16 00:00,Pinnacle MedTech Corp,Precision Bearing Assembly,15.0,"INR 43,269",West-MH
+2025-12-12,Shri Ganesh Enterprises,Smart Power Relay Module,1.0,3355.80,West-GJ
+16/10/2025,Sahyadri Traders,Smart Power Relay Module,2.0,6601.90,West-MH
+16/03/2026,Shree Ganesh Ent.,Heavy-Duty Packaging Roll,5.0,6217.86,West-MH
+29-Mar-2026,  Pinnacle MedTech Corp ,Smart Power Relay Module,16.0,48965.42,West-MH
+2026/08/01 00:00,  Vanguard Retail Grp ,Precision Bearing Assembly,11.0,31507.19,West-GJ
+2026-06-15,Bharat Hardware,Thermal Label Printer Pro,2.0,16353.31,West-GJ
+2026-03-23,Omega Auto Components,Smart Power Relay Module,7.0,21521.68,West-GJ
+2026-04-06,Zenith Industrial Supplies,Thermal Label Printer Pro,1.0,8615.95,West-GJ
+2025-10-31,  Zenith Ind. Supplies ,Heavy-Duty Packaging Roll,20.0,24978.16,North-DL
+2026-06-14,Vangaurd Retail Group,Industrial Sensor Kit v2,6.0,28160.18,West-MH
+2025-12-04,Shree Ganesh Enterprises,Industrial Sensor Kit v2,4.0,18706.61,North-DL
+06-Mar-2026,Bharat Hardware & Tools,Industrial Sensor Kit v2,3.0,12973.57,West-MH
+2026-07-18,Shree Ganesh Ent.,Heavy-Duty Packaging Roll,4.0,4805.16,North-DL
+07/01/2026,Apex Electronics Pvt Ltd,Smart Power Relay Module,3.0,10025.19,North-DL
+2026-01-20,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,8515.97,West-MH
+2026-06-16,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,36.0,"INR 45,238",West-MH
+18/11/2025,Pinnacle Medtech,Industrial Sensor Kit v2,8.0,35203.13,West-MH
+2025-11-25,Pinnacle MedTech Corp,Thermal Label Printer Pro,5.0,"₹ 43,231.58",South-KA
+27-Feb-2026,Vanguard Retail Group,Smart Power Relay Module,13.0,"INR 42,549",West-MH
+2026-08-29,Sahyadri Traders,Industrial Sensor Kit v2,4.0,18603.54,South-KA
+17/02/2026,Zenith Industrial Supplies,Thermal Label Printer Pro,1.0,Rs. 8109.66,West-MH
+25-Jul-2026,Shree Ganesh Enterprises,Heavy-Duty Packaging Roll,3.0,"₹ 3,501.54",West-GJ
+08-Mar-2026,Kurla Logistics & Packaging,Heavy-Duty Packaging Roll,5.0,5904.64,South-KA
+01/12/2025,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,,13715.98,South-KA
+29-May-2026,Bharat Hardware & Tools,Industrial Sensor Kit v2,3.0,"₹ 12,950.69",West-GJ
+2025-11-02,Westrn Coast Distributors,Heavy-Duty Packaging Roll,28.0,33093.34,West-MH
+30-Jan-2026,Deccan Polymer India,Smart Power Relay Module,8.0,24343.54,West-GJ
+06/01/2026,Vanguard Retail Grp,Precision Bearing Assembly,,15968.50,North-DL
+2026-02-19,Shree Ganesh Enterprises,Industrial Sensor Kit v2,1.0,4521.93,West-GJ
+12/04/2026,Sahyadri Agro Traders,Heavy-Duty Packaging Roll,15.0,17503.68,South-KA
+2026-03-06,Zenith Industrial Supplies,High-Tensile Fastener Box,34.0,"INR 31,736",West-MH
+2026-01-14,Kurla Logistics & Packaging,Industrial Sensor Kit v2,3.0,"₹ 13,592.22",South-KA
+03/07/2026,Metro Office Solutions,Heavy-Duty Packaging Roll,8.0,9602.53,West-GJ
+23/05/2026,Deccan Polymers India,Smart Power Relay Module,5.0,16232.76,South-KA
+2026-03-22,Western Coast Dist.,High-Tensile Fastener Box,34.0,33683.47,North-DL
+2026-01-12,Shree Ganesh Enterprises,Thermal Label Printer Pro,1.0,8896.66,South-KA
+2026/05/29 00:00,Sahyadri Agro Traders,Precision Bearing Assembly,7.0,"₹ 20,454.86",West-MH
+05/07/2026,Kurla Logistics,Industrial Sensor Kit v2,2.0,"₹ 9,103.51",West-GJ
+29/12/2025,Vanguard Retail Group,Precision Bearing Assembly,11.0,31541.57,West-GJ
+2026-10-06,Omega Auto Components,Heavy-Duty Packaging Roll,25.0,"₹ 29,578.47",West-MH
+04/02/2026,Metro Office Solutions,Thermal Label Printer Pro,1.0,"INR 8,763",West-MH
+2025/12/22 00:00,Sahyadari Agro Traders,Thermal Label Printer Pro,4.0,"INR 35,014",North-DL
+31/05/2026,Western Distributors,Precision Bearing Assembly,12.0,"₹ 34,593.86",South-KA
+2026-06-20,Western Coast Distributors,Industrial Sensor Kit v2,5.0,22422.60,West-MH
+2025-12-31,Bharat Hardware & Tools,High-Tensile Fastener Box,4.0,3922.59,North-DL
+2025-11-15,Metro Office Solutions,Thermal Label Printer Pro,1.0,"INR 8,519",North-DL
+2025/10/18 00:00,Sahyadri Traders,Precision Bearing Assembly,4.0,11235.12,West-GJ
+04/02/2026,Sahyadri Agro Traders,Precision Bearing Assembly,8.0,21455.74,West-GJ
+19/12/2025,Sahyadri Traders,Precision Bearing Assembly,4.0,10834.09,North-DL
+2026-06-08,Bharat Hardware & Tools,Smart Power Relay Module,1.0,"₹ 3,215.75",North-DL
+2026-05-18,  Kurla Logistics & Packaging ,Industrial Sensor Kit v2,2.0,Rs. 9409.38,West-GJ
+2025-11-19,Shree Ganesh Ent.,Industrial Sensor Kit v2,3.0,13159.44,West-GJ
+2025-12-18,  Vanguard Retail Group ,Heavy-Duty Packaging Roll,24.0,27401.45,West-MH
+23-Mar-2026,  Bharat Hardware & Tools ,Smart Power Relay Module,1.0,3053.03,West-GJ
+2026-08-14,Zenith Industrials,Industrial Sensor Kit v2,6.0,"₹ 26,821.40",West-MH
+05/11/2025,Pinnacle MedTech Corp,Smart Power Relay Module,12.0,38918.76,North-DL
+2025-12-08,Sahyadri Agro Traders,Precision Bearing Assembly,3.0,"₹ 8,699.45",South-KA
+2026-07-17,Pinacle MedTech Corp.,High-Tensile Fastener Box,45.0,40914.18,West-MH
+2026-06-02,Kurla Logistics & Packaging,Thermal Label Printer Pro,1.0,8572.91,South-KA
+21/06/2026,Bharat Hardware & Tools,Smart Power Relay Module,4.0,"INR 12,858",West-MH
+2026-01-20,Western Coast Distributors,Precision Bearing Assembly,7.0,18805.11,North-DL
+23/10/2025,Sahyadri Agro Traders,High-Tensile Fastener Box,20.0,18656.05,South-KA
+2026-07-23,Metro Office Solutions,Smart Power Relay Module,1.0,"₹ 3,300.63",South-KA
+2026-07-16,Zentih Industrial Supplies,Heavy-Duty Packaging Roll,19.0,"₹ 23,248.56",South-KA
+2026-01-22,Zenith Industrial Supplies,Smart Power Relay Module,,40054.11,West-MH
+2026-03-13,  Western Coast Dist. ,Precision Bearing Assembly,17.0,48794.15,North-DL
+2026-04-07,  Sahyadri Agro Traders ,Precision Bearing Assembly,7.0,18641.24,West-MH
+2025-12-30,Bharath Hardware & Tools,Industrial Sensor Kit v2,1.0,"₹ 4,418.69",West-GJ
+2026-04-27,Western Coast Distributors,Thermal Label Printer Pro,6.0,51879.84,West-MH
+31/08/2026,Vanguard Retail Group,Heavy-Duty Packaging Roll,35.0,43216.40,North-DL
+2026-10-02,Sahyadri Agro Traders,Heavy-Duty Packaging Roll,11.0,"INR 12,616",West-MH
+11-Feb-2026,Shree Ganesh Entp,High-Tensile Fastener Box,5.0,4874.22,West-MH
+2026-02-07,Western Coast Distributors,Heavy-Duty Packaging Roll,25.0,28752.32,South-KA
+2025-12-17,Sahyadri Agro Traders,Precision Bearing Assembly,4.0,10735.02,West-MH
+2025-11-04,Pinnacle MedTech,Thermal Label Printer Pro,8.0,Rs. 69884.60,West-MH
+01/03/2026,Shree Ganesh Enterprises,Heavy-Duty Packaging Roll,5.0,"INR 5,981",West-GJ
+2026-05-26,Pinnacle MedTech Corp,Industrial Sensor Kit v2,7.0,30824.99,West-MH
+01-Apr-2026,Bharat Hardware & Tools,High-Tensile Fastener Box,5.0,4935.79,North-DL
+25-Mar-2026,  Zenith Industrial Supplies ,Precision Bearing Assembly,5.0,14657.02,North-DL
+11/11/2025,Metro Office Solutions,Precision Bearing Assembly,7.0,19170.69,West-GJ
+27/05/2026,Kurla Logisitcs & Pkg,Industrial Sensor Kit v2,3.0,13199.46,West-GJ
+24-Jul-2026,Kurla Logistics & Packaging,Heavy-Duty Packaging Roll,4.0,5027.71,West-MH
+2026-01-01,Shree Ganesh Enterprises,Thermal Label Printer Pro,2.0,16676.20,North-DL
+05-Jun-2026,Vanguard Retail Group,Thermal Label Printer Pro,8.0,"INR 70,943",South-KA
+2026-04-07,Metro Solutions,Industrial Sensor Kit v2,1.0,4286.87,North-DL
+2026-05-31,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,"INR 8,764",West-GJ
+14/02/2026,Omega Auto Components,Precision Bearing Assembly,,"₹ 24,082.07",North-DL
+2025-12-31,  Metro Office Solutions ,Thermal Label Printer Pro,5.0,44390.25,North-DL
+11/07/2026,  Zentih Industrial Supplies ,Heavy-Duty Packaging Roll,27.0,32239.76,North-DL
+06-Apr-2026,Kurla Logistics & Packaging,Industrial Sensor Kit v2,1.0,"INR 4,704",North-DL
+2026-08-31,Deccan Polymer India,Thermal Label Printer Pro,,25138.31,South-KA
+2025-11-30,  Vanguard Retail Group ,High-Tensile Fastener Box,31.0,29509.81,South-KA
+2025-11-07,  Apex Electronics Pvt Ltd ,Smart Power Relay Module,8.0,26253.15,West-GJ
+2026-01-12,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,8256.02,West-GJ
+2026-09-06,Sahyadri Agro Traders,Industrial Sensor Kit v2,1.0,4432.76,West-GJ
+2026-05-29,Zentih Industrial Supplies,Smart Power Relay Module,13.0,40594.30,South-KA
+29/04/2026,  Vangaurd Retail Group ,Precision Bearing Assembly,12.0,Rs. 34048.23,South-KA
+2026/09/17 00:00,  Apex Electronics Pvt Ltd ,High-Tensile Fastener Box,17.0,"INR 15,551",North-DL
+2026-02-09,Kurla Logistics & Packaging,High-Tensile Fastener Box,2.0,"₹ 1,926.77",West-GJ
+2025-12-03,Shree Ganesh Entp,Smart Power Relay Module,1.0,3326.97,West-GJ
+2026-03-15,Zenith Industrial Supplies,Heavy-Duty Packaging Roll,24.0,Rs. 27856.28,South-KA
+2026-02-23,Bharat Hardware,Smart Power Relay Module,1.0,3094.06,West-MH
+07-Feb-2026,Bharath Hardware & Tools,Precision Bearing Assembly,1.0,2684.84,North-DL
+2026-02-27,Apex Electronics Pvt Ltd,High-Tensile Fastener Box,12.0,11065.22,South-KA
+25/09/2026,  Zenith Industrial Supplies ,Thermal Label Printer Pro,3.0,26263.50,North-DL
+2026-03-18,  Omega Auto Components ,Industrial Sensor Kit v2,4.0,17598.38,West-MH
+17/07/2026,Vanguard Retail Group,High-Tensile Fastener Box,44.0,40481.30,West-GJ
+Subtotal,--- Page Subtotal ---,,,"₹ 9,99,999.00",
+,,,,,
+2025-12-04,Metro Offc Solutions,Smart Power Relay Module,,3195.05,West-GJ
+2025-12-04,Deccan Polymers Ind.,High-Tensile Fastener Box,21.0,19875.26,West-MH
+2025-11-30,Sahyadri Agro,Thermal Label Printer Pro,1.0,8289.57,West-GJ
+28-Jan-2026,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,33.0,39646.24,West-GJ
+16/10/2025,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,34.0,40585.44,West-MH
+2025-10-22,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,8303.86,North-DL
+2025-12-12,Western Coast Dist.,Smart Power Relay Module,4.0,12313.30,West-MH
+2026-09-17,Omega Auto Components,Industrial Sensor Kit v2,6.0,27234.47,West-MH
+2026-10-14,  Sahyadri Traders ,Industrial Sensor Kit v2,4.0,18262.65,South-KA
+13/07/2026,Metro Office Solutions,Precision Bearing Assembly,4.0,"INR 10,754",West-GJ
+03/06/2026,Metro Solutions,Precision Bearing Assembly,1.0,2704.99,South-KA
+22-Feb-2026,Shree Ganesh Enterprises,Precision Bearing Assembly,1.0,2708.54,West-MH
+23/04/2026,Omga Auto Components,Thermal Label Printer Pro,1.0,"₹ 8,520.83",North-DL
+2026-09-20,Deccan Polymers Ind.,High-Tensile Fastener Box,17.0,16908.19,West-MH
+2026-07-01,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,29.0,35386.88,West-MH
+07/02/2026,Kurla Logisitcs & Pkg,Thermal Label Printer Pro,1.0,8560.87,South-KA
+2026-01-15,Apex Electronics Pvt Ltd,Smart Power Relay Module,5.0,15587.86,North-DL
+2025-12-26,Zenith Industrials,Industrial Sensor Kit v2,4.0,17966.05,South-KA
+22-Apr-2026,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,8361.11,West-MH
+2025-11-25,Shree Ganesh Enterprises,Precision Bearing Assembly,1.0,2937.19,West-MH
+23/05/2026,Deccan Polymers India,Thermal Label Printer Pro,2.0,17308.55,North-DL
+12/11/2025,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,39.0,46666.98,West-MH
+2026-06-26,Apex Electronic Pvt. Ltd.,Precision Bearing Assembly,9.0,25807.62,South-KA
+2026-05-06,  Zenith Ind. Supplies ,Industrial Sensor Kit v2,5.0,21744.60,North-DL
+2026/05/10 00:00,Pinnacle Medtech,Industrial Sensor Kit v2,13.0,60837.51,North-DL
+2026-04-18,Omega Auto Components,Heavy-Duty Packaging Roll,15.0,18731.65,South-KA
+2026-04-06,Omega Auto Components,Industrial Sensor Kit v2,4.0,17350.69,South-KA
+2026-09-10,Decan Polymers,Heavy-Duty Packaging Roll,23.0,27692.35,West-MH
+24-Jun-2026,Bharat Hardware & Tools,Thermal Label Printer Pro,2.0,16679.93,South-KA
+25/03/2026,  Shree Ganesh Enterprises ,Precision Bearing Assembly,2.0,5639.14,South-KA
+2025-11-21,Western Coast Distributors,Industrial Sensor Kit v2,8.0,34739.70,West-MH
+15/08/2026,Pinnacle MedTech Corp,Thermal Label Printer Pro,6.0,50213.05,West-GJ
+20-Aug-2026,Deccan Polymers India,Industrial Sensor Kit v2,6.0,"₹ 27,232.82",West-MH
+2026-09-10,Western Coast Distributors,Precision Bearing Assembly,11.0,29315.78,South-KA
+08/03/2026,Deccan Polymers India,High-Tensile Fastener Box,26.0,25743.57,West-MH
+02/12/2025,Deccan Polymers India,Smart Power Relay Module,9.0,"INR 30,196",West-GJ
+25/11/2025,  Deccan Polymers India ,Smart Power Relay Module,7.0,"₹ 22,030.84",West-GJ
+2026-10-12,Pinnacle MedTech,Precision Bearing Assembly,23.0,63327.73,West-MH
+2026-05-19,  Shree Ganesh Enterprises ,Smart Power Relay Module,3.0,"INR 9,453",North-DL
+2026-02-07,Vanguard Retail Grp,Smart Power Relay Module,12.0,"₹ 37,342.48",West-MH
+2026-04-05,Shree Ganesh Ent.,Thermal Label Printer Pro,1.0,"₹ 8,194.73",West-GJ
+2026-05-27,Omega Auto Components,High-Tensile Fastener Box,16.0,15076.77,North-DL
+2026-07-15,Vanguard Retail Group,Precision Bearing Assembly,19.0,"₹ 53,628.73",North-DL
+08-Mar-2026,Sahyadari Agro Traders,Precision Bearing Assembly,3.0,"₹ 8,787.30",West-GJ
+10/11/2025,Kurla Logistics & Packaging,Thermal Label Printer Pro,1.0,8427.43,West-MH
+2025-11-26,Kurla Logistics,Thermal Label Printer Pro,1.0,"INR 8,922",West-GJ
+2026-04-11,Sahyadri Traders,Precision Bearing Assembly,4.0,Rs. 11645.82,South-KA
+29/10/2025,  Vanguard Retail Group ,High-Tensile Fastener Box,33.0,29897.08,South-KA
+2026-10-06,Sahyadari Agro Traders,Precision Bearing Assembly,8.0,21627.74,South-KA
+30/12/2025,Vanguard Retail Group,Thermal Label Printer Pro,4.0,34489.60,West-MH
+14-Feb-2026,Apex Electronics Pvt Ltd,Precision Bearing Assembly,2.0,5720.94,West-MH
+05/07/2026,Shree Ganesh Enterprises,Smart Power Relay Module,1.0,3111.03,North-DL
+27/11/2025,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,8646.11,West-MH
+2026-06-12,Metro Office Solutions,Smart Power Relay Module,1.0,"₹ 3,073.31",South-KA
+2026-09-16,Vanguard Retail Group,High-Tensile Fastener Box,45.0,43402.99,South-KA
+2026-01-12,Shree Ganesh Ent.,High-Tensile Fastener Box,6.0,5795.81,North-DL
+2026-03-14,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,3.0,12940.44,North-DL
+2025-11-02,Kurla Logistics,Smart Power Relay Module,1.0,"₹ 3,098.06",South-KA
+2026-04-21,Zenith Industrial Supplies,Precision Bearing Assembly,11.0,Rs. 30603.27,North-DL
+26/06/2026,Omega Auto Components,Smart Power Relay Module,9.0,28133.79,West-GJ
+2026-03-14,  Western Coast Distributors ,High-Tensile Fastener Box,37.0,"₹ 34,298.98",West-GJ
+2026-05-30,  Omega Auto Components ,Smart Power Relay Module,6.0,19995.45,West-MH
+2026/09/23 00:00,Zenith Industrial Supplies,High-Tensile Fastener Box,21.0,19499.24,North-DL
+18-Dec-2025,Apex Electronics Pvt Ltd,Smart Power Relay Module,4.0,12335.21,West-GJ
+2026-06-02,Shree Ganesh Entp,Industrial Sensor Kit v2,4.0,17415.67,South-KA
+12/12/2025,Vanguard Retail Group,Thermal Label Printer Pro,4.0,32865.36,South-KA
+2026-05-31,Omega Auto Components,High-Tensile Fastener Box,24.0,23035.19,West-MH
+2026/01/11 00:00,Sahyadri Traders,Industrial Sensor Kit v2,2.0,Rs. 8870.11,South-KA
+17/11/2025,Omega Auto Components,Smart Power Relay Module,8.0,"INR 24,991",West-GJ
+2026-07-02,Deccan Polymers India,Heavy-Duty Packaging Roll,19.0,22791.72,South-KA
+2026/07/24 00:00,Sahyadri Agro Traders,Industrial Sensor Kit v2,3.0,"₹ 12,926.44",North-DL
+21/11/2025,Metro Office Solutions,Industrial Sensor Kit v2,3.0,13157.64,West-GJ
+2026-05-24,Bharat Hardware & Tools,Industrial Sensor Kit v2,3.0,13621.81,West-GJ
+2026/07/07 00:00,Deccan Polymers Ind.,Smart Power Relay Module,6.0,19280.45,South-KA
+2026-07-15,Pinnacle MedTech Corp,Thermal Label Printer Pro,8.0,"₹ 71,316.14",South-KA
+05/11/2025,  Pinacle MedTech Corp. ,Industrial Sensor Kit v2,7.0,32121.87,West-GJ
+16/05/2026,  Pinnacle MedTech Corp ,High-Tensile Fastener Box,37.0,36805.77,West-GJ
+2026-05-10,  Shree Ganesh Enterprises ,Industrial Sensor Kit v2,4.0,18592.05,South-KA
+2025-12-27,Pinnacle MedTech Corp,High-Tensile Fastener Box,32.0,29113.94,South-KA
+2026-07-29,Western Coast Distributors,Industrial Sensor Kit v2,7.0,31896.56,South-KA
+17-May-2026,Metro Office Solutions,Heavy-Duty Packaging Roll,5.0,"₹ 6,224.82",West-GJ
+2026-06-27,Bharat Hardware,Smart Power Relay Module,6.0,19161.36,North-DL
+02-Feb-2026,  Vanguard Retail Group ,Smart Power Relay Module,11.0,"₹ 36,903.97",North-DL
+16/07/2026,  Kurla Logistics & Packaging ,Heavy-Duty Packaging Roll,5.0,"₹ 5,912.77",South-KA
+2026-05-08,Apex Electronics Pvt Ltd,Smart Power Relay Module,3.0,9137.16,South-KA
+28/09/2026,  Pinnacle MedTech Corp ,Industrial Sensor Kit v2,13.0,61373.34,South-KA
+2026-01-24,Bharat Hardware & Tools,Industrial Sensor Kit v2,,4567.34,North-DL
+05/06/2026,Western Coast Distributors,Heavy-Duty Packaging Roll,27.0,31527.37,South-KA
+2026-04-05,Pinnacle MedTech Corp,Precision Bearing Assembly,9.0,"₹ 24,409.82",South-KA
+24/09/2026,Deccan Polymers India,Smart Power Relay Module,8.0,"₹ 26,261.09",West-MH
+14/06/2026,Pinnacle MedTech Corp,Thermal Label Printer Pro,4.0,34125.71,West-GJ
+02/09/2026,Western Coast Dist.,Precision Bearing Assembly,12.0,32227.40,West-MH
+2025-10-24,Vanguard Retail Group,Precision Bearing Assembly,18.0,"₹ 48,532.76",North-DL
+15/11/2025,Omega Auto Comp.,Thermal Label Printer Pro,6.0,50533.11,South-KA
+07-Jun-2026,Bharat Hardware,Smart Power Relay Module,1.0,"₹ 3,271.49",South-KA
+19-Jun-2026,Pinnacle MedTech Corp,Thermal Label Printer Pro,2.0,Rs. 17311.54,South-KA
+29-Jan-2026,Omega Auto Comp.,Precision Bearing Assembly,8.0,"₹ 21,878.14",South-KA
+2025/12/16 00:00,Kurla Logistics & Packaging,Precision Bearing Assembly,7.0,"₹ 19,953.08",South-KA
+11/03/2026,  Apex Electronics ,Precision Bearing Assembly,7.0,19276.83,South-KA
+2026-10-06,  Western Coast Distributors ,High-Tensile Fastener Box,47.0,"₹ 46,069.72",West-GJ
+11/02/2026,Shree Ganesh Enterprises,High-Tensile Fastener Box,3.0,2883.32,West-GJ
+15/06/2026,Metro Office Solutions,Smart Power Relay Module,4.0,"INR 13,158",West-MH
+2026-02-10,Shree Ganesh Enterprises,Industrial Sensor Kit v2,1.0,"INR 4,617",West-GJ
+06-May-2026,Apax Electronics,High-Tensile Fastener Box,17.0,"INR 16,848",West-MH
+2026/08/01 00:00,Kurla Logistics & Packaging,Smart Power Relay Module,1.0,3339.91,North-DL
+30/06/2026,Bharat Hardware & Tools,Industrial Sensor Kit v2,1.0,4410.43,West-GJ
+05-Apr-2026,Apax Electronics,Heavy-Duty Packaging Roll,17.0,"INR 20,568",North-DL
+2026-03-31,Western Coast Distributors,Heavy-Duty Packaging Roll,27.0,"INR 30,928",West-MH
+29/04/2026,Kurla Logistics & Packaging,Smart Power Relay Module,4.0,13130.58,South-KA
+12/02/2026,  Omega Auto Components ,Smart Power Relay Module,1.0,"INR 3,144",South-KA
+2025-12-14,Omega Auto Components,Smart Power Relay Module,8.0,26354.71,West-GJ
+21-Aug-2026,Sahyadri Agro Traders,Precision Bearing Assembly,5.0,"₹ 14,631.21",West-GJ
+25/11/2025,Shree Ganesh Enterprises,Smart Power Relay Module,1.0,3341.96,West-GJ
+16/07/2026,Pinnacle MedTech Corp,Thermal Label Printer Pro,7.0,"₹ 57,792.97",North-DL
+2026-07-03,  Zenith Industrial Supplies ,Heavy-Duty Packaging Roll,20.0,23935.70,North-DL
+21/03/2026,Shri Ganesh Enterprises,Industrial Sensor Kit v2,1.0,4665.88,South-KA
+2025-11-16,  Omega Auto Components ,Industrial Sensor Kit v2,6.0,28136.29,West-GJ
+18-May-2026,Bharat Hardware & Tools,Precision Bearing Assembly,3.0,8085.16,West-GJ
+11/04/2026,Shree Ganesh Enterprises,Precision Bearing Assembly,2.0,5595.29,West-MH
+16-Mar-2026,Apex Electronics Pvt Ltd,Precision Bearing Assembly,6.0,16081.71,South-KA
+Subtotal,--- Page Subtotal ---,,,"₹ 9,99,999.00",
+,,,,,
+05/03/2026,Bharat Hardware & Tools,Industrial Sensor Kit v2,,8812.50,West-MH
+28/01/2026,Vanguard Retail Group,Precision Bearing Assembly,13.0,37418.66,West-MH
+2026/05/27 00:00,Metro Office Solutions,Industrial Sensor Kit v2,1.0,4491.23,South-KA
+2026-08-17,Pinacle MedTech Corp.,Heavy-Duty Packaging Roll,25.0,"₹ 31,459.99",West-GJ
+17-Mar-2026,Metro Office Solutions,Thermal Label Printer Pro,1.0,8499.05,North-DL
+25/06/2026,Western Coast Distributors,High-Tensile Fastener Box,34.0,32492.67,North-DL
+30-Dec-2025,Metro Office Solutions,Thermal Label Printer Pro,1.0,8352.49,West-GJ
+2025-11-13,Sahyadri Agro Traders,Thermal Label Printer Pro,1.0,8373.03,South-KA
+24-Nov-2025,Shree Ganesh Entp,Industrial Sensor Kit v2,1.0,4310.36,North-DL
+04/11/2025,Shree Ganesh Ent.,Thermal Label Printer Pro,1.0,8187.81,South-KA
+2025/10/22 00:00,Kurla Logistics & Packaging,High-Tensile Fastener Box,5.0,4814.80,West-GJ
+20/08/2026,Omega Auto Comp.,Heavy-Duty Packaging Roll,20.0,25046.91,South-KA
+2026/02/25 00:00,Kurla Logistics & Packaging,Precision Bearing Assembly,1.0,2811.56,South-KA
+2026-04-22,  Vanguard Retail Group ,Heavy-Duty Packaging Roll,32.0,37783.49,North-DL
+2026-01-01,Kurla Logistics & Packaging,Thermal Label Printer Pro,1.0,"₹ 8,835.59",South-KA
+22/06/2026,Kurla Packaging,Precision Bearing Assembly,4.0,11459.38,West-GJ
+2026/07/21 00:00,Omega Auto Components,Thermal Label Printer Pro,1.0,8126.30,West-MH
+08/11/2025,Shri Ganesh Enterprises,High-Tensile Fastener Box,6.0,5865.13,North-DL
+14/11/2025,Deccan Polymers India,Thermal Label Printer Pro,4.0,35687.54,North-DL
+23-Oct-2025,Apex Electronics Pvt Ltd,Smart Power Relay Module,,"₹ 15,612.29",West-GJ
+03-Dec-2025,Zenith Industrial Supplies,Thermal Label Printer Pro,5.0,41951.91,North-DL
+2026-04-24,Zentih Industrial Supplies,Heavy-Duty Packaging Roll,27.0,"₹ 32,201.11",West-MH
+31/10/2025,Shree Ganesh Enterprises,Thermal Label Printer Pro,1.0,"₹ 8,817.41",West-MH
+25-May-2026,Sahyadri Agro Traders,Industrial Sensor Kit v2,5.0,22776.67,North-DL
+07/11/2025,Kurla Packaging,Smart Power Relay Module,2.0,6538.13,South-KA
+29-Jan-2026,Apex Electronics Pvt Ltd,High-Tensile Fastener Box,25.0,23126.67,West-GJ
+2026-05-02,Pinnacle Medtech,Precision Bearing Assembly,25.0,Rs. 72480.70,West-MH
+10/04/2026,Western Coast Distributors,Industrial Sensor Kit v2,7.0,Rs. 31156.91,North-DL
+2025-10-30,Deccan Polymers India,Precision Bearing Assembly,9.0,"INR 24,368",North-DL
+2026-04-27,Bharat Hardware & Tools,Heavy-Duty Packaging Roll,7.0,8120.80,West-GJ
+2026-05-02,  Omega Auto Components ,Industrial Sensor Kit v2,3.0,"₹ 13,964.63",West-MH
+2025-11-28,Bharat Hardware & Tools,Thermal Label Printer Pro,3.0,24510.40,West-MH
+2026-08-17,Pinacle MedTech Corp.,Industrial Sensor Kit v2,5.0,22392.45,West-GJ
+2026-07-08,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,44.0,52838.20,West-GJ
+05-Mar-2026,Metro Office Solutions,Industrial Sensor Kit v2,1.0,"₹ 4,341.75",North-DL
+2026-08-26,  Pinnacle MedTech Corp ,Smart Power Relay Module,,"₹ 44,597.23",North-DL
+2026-05-28,Deccan Polymers India,High-Tensile Fastener Box,22.0,21248.75,West-GJ
+24/03/2026,Sahyadri Agro Traders,Smart Power Relay Module,2.0,6531.00,West-GJ
+25/04/2026,Deccan Polymers India,Smart Power Relay Module,7.0,22831.48,West-GJ
+23/07/2026,Shree Ganesh Enterprises,High-Tensile Fastener Box,11.0,"₹ 10,616.04",West-MH
+27/06/2026,Metro Office Solutions,Smart Power Relay Module,2.0,"₹ 6,501.02",West-MH
+17-Aug-2026,Sahyadri Agro Traders,Thermal Label Printer Pro,1.0,8905.60,West-MH
+2026-10-09,Deccan Polymers Ind.,High-Tensile Fastener Box,28.0,27351.15,South-KA
+06/11/2025,Bharat Hardware & Tools,High-Tensile Fastener Box,13.0,Rs. 12133.36,North-DL
+20/10/2025,Zenith Industrial Supplies,High-Tensile Fastener Box,26.0,25182.80,North-DL
+2026-05-03,Deccan Polymers India,High-Tensile Fastener Box,20.0,18501.33,West-MH
+2026-05-15,  Kurla Packaging ,High-Tensile Fastener Box,5.0,4732.66,West-GJ
+2026-06-19,  Western Coast Distributors ,High-Tensile Fastener Box,30.0,28554.38,West-MH
+08/04/2026,Apex Electronics Pvt Ltd,Heavy-Duty Packaging Roll,15.0,17714.25,West-GJ
+2026-07-28,Deccan Polymers India,Precision Bearing Assembly,9.0,"₹ 24,433.36",North-DL
+25/08/2026,Apax Electronics,Precision Bearing Assembly,5.0,14608.21,West-MH
+2025-12-06,Pinacle MedTech Corp.,Smart Power Relay Module,9.0,28759.31,North-DL
+2026-09-07,Western Coast Distributors,Precision Bearing Assembly,9.0,"₹ 24,714.37",West-GJ
+2026-03-16,Shree Ganesh Entp,High-Tensile Fastener Box,8.0,7737.65,West-GJ
+2026-10-05,Deccan Polymers India,Thermal Label Printer Pro,3.0,25671.65,West-GJ
+08/01/2026,  Western Coast Distributors ,Smart Power Relay Module,11.0,"INR 34,186",West-MH
+2025-12-23,Sahyadri Agro Traders,Thermal Label Printer Pro,4.0,"₹ 33,105.36",North-DL
+2026-05-30,  Omega Auto Components ,Industrial Sensor Kit v2,5.0,22778.68,West-GJ
+2026-03-11,Western Coast Distributors,High-Tensile Fastener Box,36.0,33064.61,West-MH
+2026-07-20,Kurla Logisitcs & Pkg,Industrial Sensor Kit v2,2.0,8636.14,North-DL
+2026-09-14,Zenith Industrials,Industrial Sensor Kit v2,4.0,"₹ 17,803.63",North-DL
+13/02/2026,Zenith Industrial Supplies,High-Tensile Fastener Box,26.0,25904.83,West-GJ
+2025-12-25,Pinacle MedTech Corp.,Industrial Sensor Kit v2,8.0,36807.62,West-GJ
+10/10/2026,Deccan Polymers India,Thermal Label Printer Pro,2.0,16295.62,North-DL
+05/03/2026,  Apax Electronics ,Heavy-Duty Packaging Roll,24.0,"₹ 28,291.31",North-DL
+2025-12-26,Sahyadri Agro Traders,Precision Bearing Assembly,2.0,"₹ 5,610.67",West-MH
+2026-07-05,Metro Office Solution,Smart Power Relay Module,1.0,3114.79,West-MH
+2026-06-06,Omega Auto Components,Industrial Sensor Kit v2,6.0,Rs. 28334.18,West-GJ
+01/03/2026,Sahyadri Agro Traders,Thermal Label Printer Pro,4.0,34211.81,South-KA
+08-Nov-2025,Shree Ganesh Enterprises,Precision Bearing Assembly,,8430.10,North-DL
+2026-05-22,Apex Electronics Pvt Ltd,Heavy-Duty Packaging Roll,9.0,"INR 11,077",South-KA
+2026-09-15,  Zenith Industrial Supplies ,High-Tensile Fastener Box,26.0,25429.76,South-KA
+2026-10-08,Omega Auto Comp.,Industrial Sensor Kit v2,8.0,36444.91,West-GJ
+07-Feb-2026,Pinnacle MedTech Corp,Industrial Sensor Kit v2,6.0,Rs. 26468.45,North-DL
+2025-12-21,Omega Auto Components,Industrial Sensor Kit v2,2.0,9393.26,South-KA
+28/04/2026,Bharath Hardware & Tools,Heavy-Duty Packaging Roll,10.0,12516.71,West-MH
+2026-09-12,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,33.0,41057.50,North-DL
+2025-11-28,  Vanguard Retail Grp ,Industrial Sensor Kit v2,9.0,Rs. 41806.05,South-KA
+18/02/2026,  Bharat Hardware & Tools ,Thermal Label Printer Pro,1.0,8807.71,West-MH
+2026-03-18,Shree Ganesh Enterprises,Heavy-Duty Packaging Roll,7.0,8288.73,West-GJ
+30-Apr-2026,Sahyadri Agro Traders,Thermal Label Printer Pro,1.0,8096.94,South-KA
+21/12/2025,Deccan Polymers India,Precision Bearing Assembly,8.0,"₹ 22,715.45",West-MH
+11-Aug-2026,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,3.0,12907.82,South-KA
+2026-06-28,Shree Ganesh Ent.,Precision Bearing Assembly,2.0,5877.13,South-KA
+2026-03-22,Zenith Industrial Supplies,Heavy-Duty Packaging Roll,18.0,21175.07,West-MH
+26-May-2026,Kurla Logistics,Industrial Sensor Kit v2,1.0,4586.47,West-MH
+2026-01-12,Kurla Logistics & Packaging,High-Tensile Fastener Box,,5715.41,South-KA
+2026-04-23,Bharat Hardware & Tools,Smart Power Relay Module,1.0,"INR 3,324",South-KA
+2026-03-03,Metro Office Solutions,Thermal Label Printer Pro,1.0,8387.60,West-MH
+01/08/2026,Sahyadri Agro Traders,Industrial Sensor Kit v2,4.0,17849.08,West-MH
+2025-10-21,Apex Electronics Pvt Ltd,Precision Bearing Assembly,4.0,Rs. 11239.55,West-MH
+15-Oct-2026,Western Coast Dist.,Smart Power Relay Module,9.0,28054.66,West-MH
+23-Apr-2026,Pinnacle MedTech Corp,Industrial Sensor Kit v2,10.0,Rs. 44211.04,North-DL
+10/06/2026,Zenith Ind. Supplies,Smart Power Relay Module,12.0,39708.95,West-GJ
+30/07/2026,Kurla Logisitcs & Pkg,Heavy-Duty Packaging Roll,4.0,4989.66,West-GJ
+2026-07-21,Omega Auto Comp.,Industrial Sensor Kit v2,4.0,18427.38,West-MH
+2025-10-15,Deccan Polymer India,High-Tensile Fastener Box,23.0,20848.56,West-GJ
+2026-06-23,Metro Solutions,Heavy-Duty Packaging Roll,3.0,"INR 3,424",North-DL
+2026-04-23,Omega Auto Components,Thermal Label Printer Pro,3.0,"₹ 25,116.74",West-MH
+2026-08-01,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,39.0,45326.72,North-DL
+2026-03-31,Omega Auto Components,Industrial Sensor Kit v2,4.0,"₹ 17,137.70",West-MH
+2025-12-08,Bharat Hardware & Tools,Precision Bearing Assembly,1.0,"₹ 2,931.00",North-DL
+2026-06-09,  Kurla Logistics & Packaging ,Heavy-Duty Packaging Roll,5.0,"₹ 6,069.01",West-MH
+2026-03-31,Vanguard Retail Group,Smart Power Relay Module,16.0,51355.15,West-GJ
+2026-05-10,Apax Electronics,Thermal Label Printer Pro,1.0,"₹ 8,898.22",West-GJ
+21-Oct-2025,Zenith Industrial Supplies,Heavy-Duty Packaging Roll,27.0,33955.10,West-MH
+2026-08-11,Pinnacle MedTech Corp,Industrial Sensor Kit v2,11.0,50059.05,West-GJ
+02/04/2026,Zenith Industrial Supplies,Industrial Sensor Kit v2,5.0,"₹ 22,018.29",North-DL
+2025-10-30,Sahyadri Agro Traders,Smart Power Relay Module,11.0,35358.49,West-GJ
+25-Aug-2026,Apex Electronics Pvt Ltd,Smart Power Relay Module,4.0,13089.25,West-MH
+2026/04/29 00:00,Kurla Logistics & Packaging,Thermal Label Printer Pro,1.0,8504.97,West-MH
+2026-04-16,Metro Office Solutions,Smart Power Relay Module,5.0,16104.04,West-GJ
+2026/03/27 00:00,  Apex Electronics Pvt Ltd ,Smart Power Relay Module,6.0,18713.62,West-GJ
+05-Dec-2025,Bharat Hardware & Tools,Thermal Label Printer Pro,2.0,16832.54,West-GJ
+01/05/2026,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,37.0,"₹ 44,644.58",South-KA
+29/10/2025,Pinnacle Medtech,Thermal Label Printer Pro,6.0,52331.05,North-DL
+2026-03-22,  Western Coast Distributors ,Industrial Sensor Kit v2,6.0,26475.13,West-MH
+25-Aug-2026,  Deccan Polymers India ,High-Tensile Fastener Box,21.0,"INR 20,393",West-MH
+29-Dec-2025,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,5.0,Rs. 22769.08,South-KA
+2026/09/19 00:00,  Omega Auto Components ,Smart Power Relay Module,6.0,"₹ 19,353.57",North-DL
+Subtotal,--- Page Subtotal ---,,,"₹ 9,99,999.00",
+,,,,,
+21-Jun-2026,Shree Ganesh Enterprises,Thermal Label Printer Pro,1.0,"₹ 8,587.96",West-GJ
+12/01/2026,Shree Ganesh Enterprises,Smart Power Relay Module,2.0,"INR 6,608",North-DL
+31/10/2025,Pinnacle MedTech Corp,Thermal Label Printer Pro,2.0,"INR 16,718",West-GJ
+2025/11/23 00:00,Deccan Polymers India,Heavy-Duty Packaging Roll,23.0,"₹ 27,434.95",South-KA
+20/10/2025,Sahyadri Agro Traders,Industrial Sensor Kit v2,2.0,"₹ 8,629.74",West-MH
+2026-05-27,Metro Office Solution,Precision Bearing Assembly,6.0,17028.78,West-MH
+06/08/2026,Sahyadri Agro,Heavy-Duty Packaging Roll,17.0,20216.21,West-MH
+2026-02-25,  Deccan Polymers Ind. ,Heavy-Duty Packaging Roll,21.0,25381.12,West-MH
+15-Aug-2026,Deccan Polymers Ind.,High-Tensile Fastener Box,,22485.90,North-DL
+11/11/2025,Bharat Hardware & Tools,Heavy-Duty Packaging Roll,2.0,"INR 2,480",South-KA
+08-Mar-2026,  Shree Ganesh Enterprises ,Precision Bearing Assembly,2.0,5846.78,South-KA
+2026-05-21,Apex Electronics Pvt Ltd,High-Tensile Fastener Box,16.0,15766.55,West-GJ
+2026-03-13,Shree Ganesh Entp,Industrial Sensor Kit v2,1.0,4636.19,South-KA
+2026-09-08,Zenith Industrial Supplies,Precision Bearing Assembly,9.0,25477.77,North-DL
+07/02/2026,Kurla Logisitcs & Pkg,Heavy-Duty Packaging Roll,4.0,4587.39,South-KA
+2026-05-14,Western Distributors,Thermal Label Printer Pro,2.0,17690.63,North-DL
+12/02/2026,  Pinnacle MedTech Corp ,High-Tensile Fastener Box,,32163.21,West-GJ
+2026-06-01,Zenith Industrial Supplies,Heavy-Duty Packaging Roll,21.0,24104.72,North-DL
+01-Sep-2026,Vanguard Retail Group,Smart Power Relay Module,11.0,33660.54,North-DL
+06-May-2026,Western Coast Distributors,Thermal Label Printer Pro,3.0,"₹ 25,110.73",North-DL
+15-May-2026,Zenith Industrial Supplies,Thermal Label Printer Pro,1.0,"INR 8,639",West-MH
+2026-07-16,Kurla Logisitcs & Pkg,Smart Power Relay Module,3.0,9522.04,West-MH
+2026-03-05,Bharat Hardware & Tools,High-Tensile Fastener Box,11.0,"INR 10,086",South-KA
+2026-02-13,Omega Auto Components,Smart Power Relay Module,5.0,"₹ 16,576.22",South-KA
+07-Mar-2026,Kurla Logisitcs & Pkg,High-Tensile Fastener Box,5.0,4742.73,North-DL
+2026-03-01,Deccan Polymer India,Industrial Sensor Kit v2,8.0,"₹ 36,045.01",North-DL
+24/04/2026,Westrn Coast Distributors,Heavy-Duty Packaging Roll,29.0,33240.81,West-MH
+2026-01-21,Bharath Hardware & Tools,Industrial Sensor Kit v2,1.0,"INR 4,391",West-GJ
+21/04/2026,Kurla Logisitcs & Pkg,High-Tensile Fastener Box,8.0,7562.94,North-DL
+2026-05-31,Pinnacle MedTech Corp,Thermal Label Printer Pro,3.0,"₹ 25,408.03",South-KA
+02/10/2026,  Omega Auto Components ,Industrial Sensor Kit v2,9.0,Rs. 40594.49,West-GJ
+07-Feb-2026,Shri Ganesh Enterprises,Precision Bearing Assembly,3.0,Rs. 8650.25,West-MH
+21/12/2025,Sahyadri Agro Traders,Industrial Sensor Kit v2,3.0,"INR 13,764",South-KA
+25/04/2026,Metro Offc Solutions,Heavy-Duty Packaging Roll,8.0,"₹ 9,978.23",North-DL
+06/12/2025,Pinnacle MedTech Corp,Smart Power Relay Module,12.0,38170.84,West-MH
+2025-11-16,Sahyadri Agro Traders,Smart Power Relay Module,9.0,"₹ 27,837.95",South-KA
+30-Dec-2025,Vanguard Retail Group,Industrial Sensor Kit v2,3.0,13580.67,South-KA
+2025-12-25,Shri Ganesh Enterprises,Smart Power Relay Module,3.0,9822.24,West-MH
+2026-10-12,Pinnacle MedTech,Smart Power Relay Module,20.0,65345.55,North-DL
+2026-04-16,Shree Ganesh Enterprises,High-Tensile Fastener Box,8.0,7761.13,West-GJ
+24-Feb-2026,Omega Auto Comp.,Heavy-Duty Packaging Roll,20.0,"₹ 23,375.70",West-GJ
+06/02/2026,Deccan Polymer India,Smart Power Relay Module,7.0,22335.68,West-MH
+11-Nov-2025,Sahyadari Agro Traders,Thermal Label Printer Pro,2.0,17299.50,North-DL
+2026-03-16,Western Coast Distributors,Heavy-Duty Packaging Roll,26.0,29857.28,North-DL
+25/03/2026,Bharath Hardware & Tools,Industrial Sensor Kit v2,2.0,9303.34,West-MH
+2026-06-03,Apex Electronics Pvt Ltd,Heavy-Duty Packaging Roll,13.0,"₹ 15,902.87",West-MH
+2026-05-25,Bharat Hardware & Tools,Precision Bearing Assembly,2.0,5338.59,South-KA
+28/03/2026,Apex Electronic Pvt. Ltd.,Industrial Sensor Kit v2,10.0,43249.45,South-KA
+20-Dec-2025,Kurla Logistics & Packaging,Smart Power Relay Module,2.0,6429.85,South-KA
+2026-07-08,Sahyadri Agro Traders,High-Tensile Fastener Box,11.0,"INR 9,971",South-KA
+2026-01-07,Vanguard Retail Grp,Precision Bearing Assembly,,Rs. 24676.39,West-GJ
+26/10/2025,Omega Auto Components,Smart Power Relay Module,8.0,26554.25,South-KA
+30-Aug-2026,Western Coast Distributors,High-Tensile Fastener Box,25.0,23846.66,West-MH
+2026-05-30,Metro Office Solutions,Precision Bearing Assembly,1.0,"₹ 2,663.47",West-MH
+18/05/2026,Kurla Logistics,Smart Power Relay Module,1.0,3231.47,West-MH
+27/08/2026,  Western Coast Distributors ,Industrial Sensor Kit v2,9.0,"₹ 38,794.83",West-GJ
+2026-10-10,Deccan Polymers India,Thermal Label Printer Pro,2.0,"INR 17,141",South-KA
+16/10/2025,  Vanguard Retail Group ,Industrial Sensor Kit v2,7.0,32790.32,West-MH
+2025-11-22,  Western Coast Dist. ,Smart Power Relay Module,14.0,Rs. 44878.16,South-KA
+2025-11-09,Sahyadri Agro Traders,Industrial Sensor Kit v2,6.0,"₹ 27,289.14",North-DL
+2025-12-13,Omega Auto Components,Industrial Sensor Kit v2,,22240.15,South-KA
+27-May-2026,Deccan Polymers Ind.,High-Tensile Fastener Box,22.0,21841.61,North-DL
+05/06/2026,Metro Office Solutions,Precision Bearing Assembly,4.0,"₹ 10,924.92",West-MH
+14/11/2025,Bharat Hardware,Industrial Sensor Kit v2,1.0,"₹ 4,295.54",North-DL
+27/04/2026,Bharath Hardware & Tools,High-Tensile Fastener Box,7.0,"INR 6,455",North-DL
+2025-12-11,Sahyadri Traders,Industrial Sensor Kit v2,1.0,"₹ 4,278.45",West-GJ
+06/04/2026,Shree Ganesh Enterprises,Thermal Label Printer Pro,1.0,8106.21,South-KA
+30/04/2026,Shree Ganesh Enterprises,Thermal Label Printer Pro,1.0,8363.03,North-DL
+2026-01-07,Sahyadri Agro Traders,Heavy-Duty Packaging Roll,16.0,19224.32,North-DL
+12-Feb-2026,Metro Office Solutions,Thermal Label Printer Pro,1.0,8866.99,West-MH
+2026-09-14,Sahyadri Agro Traders,Industrial Sensor Kit v2,2.0,8652.45,South-KA
+2026-07-29,Western Coast Distributors,Smart Power Relay Module,13.0,40806.99,North-DL
+28/07/2026,Decan Polymers,High-Tensile Fastener Box,28.0,26962.83,West-GJ
+2026-04-07,Apex Electronics Pvt Ltd,Smart Power Relay Module,2.0,6466.43,West-GJ
+25/12/2025,Sahyadari Agro Traders,Precision Bearing Assembly,4.0,10775.55,North-DL
+2026-06-06,Vangaurd Retail Group,Smart Power Relay Module,10.0,"INR 30,627",West-MH
+2026-06-06,Sahyadri Agro,Heavy-Duty Packaging Roll,7.0,"₹ 8,771.05",North-DL
+2026-06-19,Pinnacle MedTech,Heavy-Duty Packaging Roll,36.0,"₹ 42,603.49",West-MH
+28/03/2026,Metro Office Solutions,Thermal Label Printer Pro,1.0,8615.68,South-KA
+03/06/2026,  Kurla Logisitcs & Pkg ,Thermal Label Printer Pro,2.0,17380.75,South-KA
+25/07/2026,Omega Auto Components,Thermal Label Printer Pro,2.0,"INR 17,058",West-GJ
+2026-09-12,Omega Auto,Thermal Label Printer Pro,1.0,8433.73,South-KA
+17/06/2026,Western Coast Distributors,High-Tensile Fastener Box,28.0,"₹ 26,805.35",South-KA
+2025-10-21,  Metro Office Solutions ,Heavy-Duty Packaging Roll,7.0,8341.14,West-GJ
+2026-02-20,  Kurla Logistics & Packaging ,Smart Power Relay Module,1.0,3138.02,North-DL
+26/08/2026,Zenith Ind. Supplies,Heavy-Duty Packaging Roll,27.0,33366.75,South-KA
+2026/09/20 00:00,Omega Auto Components,Precision Bearing Assembly,11.0,30586.03,West-MH
+20-Feb-2026,Apex Electronics Pvt Ltd,Precision Bearing Assembly,4.0,"₹ 11,363.32",South-KA
+2026-07-21,Pinnacle Medtech,High-Tensile Fastener Box,45.0,40919.07,West-MH
+11/01/2026,  Bharat Hardwares ,Industrial Sensor Kit v2,1.0,4579.70,South-KA
+2026-04-02,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,5.0,21691.24,South-KA
+2026-08-04,  Sahyadri Agro Traders ,High-Tensile Fastener Box,17.0,16158.81,West-MH
+04-Jan-2026,Western Coast Distributors,Industrial Sensor Kit v2,3.0,"₹ 13,348.78",South-KA
+14/03/2026,Deccan Polymers India,Thermal Label Printer Pro,1.0,"₹ 8,717.78",West-MH
+22/09/2026,Zenith Industrial Supplies,High-Tensile Fastener Box,28.0,Rs. 27664.22,South-KA
+2025-12-12,Metro Office Solutions,Smart Power Relay Module,,"₹ 6,648.58",North-DL
+06-Nov-2025,Sahyadri Agro Traders,Smart Power Relay Module,8.0,24714.61,West-MH
+2025-11-17,Shree Ganesh Enterprises,Heavy-Duty Packaging Roll,7.0,8028.42,North-DL
+2025-11-20,Shri Ganesh Enterprises,Precision Bearing Assembly,3.0,8271.71,West-GJ
+2026-07-27,Kurla Logistics & Packaging,Smart Power Relay Module,1.0,3182.09,South-KA
+2026-05-02,Apex Electronic Pvt. Ltd.,High-Tensile Fastener Box,21.0,"₹ 19,754.05",West-MH
+2025-11-21,Omega Auto Components,Smart Power Relay Module,7.0,22345.22,North-DL
+2026-05-05,  Metro Offc Solutions ,Heavy-Duty Packaging Roll,9.0,11117.75,South-KA
+2025/12/27 00:00,Shree Ganesh Enterprises,High-Tensile Fastener Box,9.0,8366.84,West-GJ
+2025-11-05,Zenith Industrial Supplies,Thermal Label Printer Pro,3.0,25480.43,South-KA
+2026-05-14,Vanguard Retail Grp,Heavy-Duty Packaging Roll,30.0,"₹ 37,730.66",West-GJ
+15-Jan-2026,Zenith Industrials,Industrial Sensor Kit v2,6.0,Rs. 27955.70,North-DL
+23/07/2026,Shree Ganesh Enterprises,Smart Power Relay Module,3.0,9968.13,South-KA
+19-Dec-2025,Deccan Polymer India,Smart Power Relay Module,4.0,12770.36,North-DL
+2026-08-26,Deccan Polymer India,Heavy-Duty Packaging Roll,21.0,25685.18,North-DL
+2025-10-17,Bharat Hardware & Tools,High-Tensile Fastener Box,7.0,"₹ 6,981.05",West-GJ
+2026-04-02,Shree Ganesh Ent.,Smart Power Relay Module,3.0,9828.35,West-MH
+2025-12-25,Kurla Packaging,High-Tensile Fastener Box,9.0,8539.42,West-MH
+2026-09-03,Western Coast Distributors,Precision Bearing Assembly,5.0,13869.95,South-KA
+18-Jul-2026,Western Coast Distributors,Smart Power Relay Module,8.0,24516.77,South-KA
+09/06/2026,  Bharat Hardware & Tools ,Smart Power Relay Module,3.0,"₹ 9,189.99",West-GJ
+2025/12/25 00:00,Western Coast Distributors,Thermal Label Printer Pro,2.0,"₹ 16,627.71",North-DL
+2025-11-04,Deccan Polymers India,Industrial Sensor Kit v2,7.0,"₹ 33,008.79",South-KA
+2026-06-12,Metro Solutions,Industrial Sensor Kit v2,3.0,"₹ 14,024.69",South-KA
+2026-02-26,Omega Auto Components,Precision Bearing Assembly,6.0,"₹ 17,159.44",West-MH
+Subtotal,--- Page Subtotal ---,,,"₹ 9,99,999.00",
+,,,,,
+20-Feb-2026,Western Coast Distributors,Thermal Label Printer Pro,4.0,34936.18,North-DL
+2025-10-18,  Pinnacle MedTech Corp ,Heavy-Duty Packaging Roll,30.0,35223.39,West-GJ
+2026-01-03,Bharat Hardware & Tools,Industrial Sensor Kit v2,1.0,4558.30,West-MH
+2026-09-25,Sahyadri Agro Traders,Heavy-Duty Packaging Roll,12.0,14416.03,West-GJ
+2026-08-14,Pinnacle MedTech Corp,Industrial Sensor Kit v2,5.0,21930.35,West-GJ
+10/05/2026,Western Coast Distributors,Industrial Sensor Kit v2,6.0,"₹ 27,780.12",West-MH
+01-Jun-2026,Vanguard Retail Group,Precision Bearing Assembly,18.0,52466.11,West-GJ
+2026-09-17,Pinnacle MedTech Corp,High-Tensile Fastener Box,42.0,38261.27,West-GJ
+2026-04-30,  Metro Office Solutions ,Thermal Label Printer Pro,1.0,8404.50,West-GJ
+03/12/2025,Pinnacle MedTech Corp,Thermal Label Printer Pro,,16433.82,West-MH
+18-Jun-2026,Zenith Industrials,Thermal Label Printer Pro,7.0,"₹ 61,176.85",North-DL
+18-May-2026,  Western Coast Distributors ,Thermal Label Printer Pro,2.0,17776.56,North-DL
+2026-08-12,Decan Polymers,High-Tensile Fastener Box,23.0,21757.57,West-GJ
+09/03/2026,Zenith Industrial Supplies,Smart Power Relay Module,8.0,"₹ 26,002.82",West-MH
+2025-10-18,Western Coast Distributors,Smart Power Relay Module,12.0,37244.99,South-KA
+2026-07-16,Kurla Logistics & Packaging,Smart Power Relay Module,2.0,6117.18,North-DL
+22/04/2026,Bharat Hardware & Tools,Smart Power Relay Module,1.0,3125.63,West-GJ
+2025-12-14,Shri Ganesh Enterprises,High-Tensile Fastener Box,3.0,2713.01,South-KA
+25/08/2026,Western Coast Dist.,Heavy-Duty Packaging Roll,19.0,"₹ 22,783.73",West-GJ
+18/08/2026,  Sahyadri Agro Traders ,Heavy-Duty Packaging Roll,13.0,"₹ 15,748.41",North-DL
+15/09/2026,Pinnacle MedTech Corp,Thermal Label Printer Pro,1.0,8893.97,North-DL
+2025-10-20,Sahyadri Agro Traders,Thermal Label Printer Pro,2.0,17465.79,West-GJ
+2026-01-09,Pinnacle Medtech,High-Tensile Fastener Box,,Rs. 42794.52,North-DL
+22/09/2026,Deccan Polymers India,Thermal Label Printer Pro,,"INR 8,730",South-KA
+2026/07/28 00:00,Omega Auto,Smart Power Relay Module,3.0,9401.58,North-DL
+2025-10-17,Pinnacle MedTech Corp,Industrial Sensor Kit v2,4.0,17639.64,West-MH
+2026-02-23,Westrn Coast Distributors,Thermal Label Printer Pro,3.0,26516.33,North-DL
+06-Apr-2026,Vanguard Retail Grp,Precision Bearing Assembly,12.0,32937.80,South-KA
+28-Apr-2026,Zenith Industrial Supplies,High-Tensile Fastener Box,16.0,14814.84,South-KA
+2026-07-16,Western Coast Distributors,Heavy-Duty Packaging Roll,25.0,"₹ 29,921.43",South-KA
+25/07/2026,Zentih Industrial Supplies,Smart Power Relay Module,9.0,27924.00,West-GJ
+2026-01-25,Sahyadri Agro Traders,Smart Power Relay Module,4.0,13198.24,South-KA
+2025-12-08,  Bharat Hardware & Tools ,High-Tensile Fastener Box,10.0,"INR 9,165",West-MH
+2026-04-23,Sahyadri Agro Traders,Thermal Label Printer Pro,1.0,Rs. 8611.28,South-KA
+2026-02-05,  Metro Office Solution ,Thermal Label Printer Pro,1.0,8889.24,South-KA
+12/01/2026,  Metro Office Solutions ,Thermal Label Printer Pro,1.0,8500.51,West-GJ
+2025-12-05,Metro Office Solutions,Smart Power Relay Module,1.0,3127.91,South-KA
+2026-01-17,Deccan Polymers India,High-Tensile Fastener Box,25.0,23860.62,North-DL
+21-Dec-2025,Bharat Hardware,Industrial Sensor Kit v2,1.0,4349.59,North-DL
+2025-12-28,Vangaurd Retail Group,Precision Bearing Assembly,11.0,29413.94,South-KA
+17/03/2026,Sahyadri Agro Traders,Industrial Sensor Kit v2,11.0,48309.73,South-KA
+02/09/2026,Sahyadri Agro Traders,Smart Power Relay Module,5.0,"INR 16,468",South-KA
+2025-10-25,Deccan Polymers India,High-Tensile Fastener Box,35.0,34837.05,West-GJ
+2026-04-14,Kurla Logistics & Packaging,High-Tensile Fastener Box,7.0,6693.28,North-DL
+28/12/2025,Shree Ganesh Ent.,Smart Power Relay Module,2.0,6085.78,West-MH
+2026-01-05,Zenith Industrial Supplies,High-Tensile Fastener Box,22.0,20332.93,South-KA
+2026-04-18,Sahyadri Agro,Precision Bearing Assembly,5.0,13900.18,West-GJ
+2026-02-20,Shree Ganesh Entp,Industrial Sensor Kit v2,1.0,4491.40,North-DL
+11/11/2025,Western Coast Distributors,Industrial Sensor Kit v2,6.0,27704.72,North-DL
+2026-02-09,Kurla Logistics & Packaging,High-Tensile Fastener Box,9.0,8429.08,West-MH
+15-Apr-2026,Shree Ganesh Ent.,Precision Bearing Assembly,2.0,"INR 5,834",North-DL
+18-Jul-2026,Bharat Hardware & Tools,High-Tensile Fastener Box,4.0,3676.58,South-KA
+2026-06-18,Deccan Polymers India,Precision Bearing Assembly,13.0,37420.53,West-MH
+2026-07-09,Apax Electronics,Smart Power Relay Module,5.0,"₹ 16,568.05",North-DL
+17/03/2026,Sahyadri Agro Traders,Smart Power Relay Module,2.0,6682.10,West-GJ
+2026-07-29,Metro Office Solutions,High-Tensile Fastener Box,13.0,11890.42,South-KA
+19/05/2026,Zenith Industrial Supplies,Thermal Label Printer Pro,1.0,8429.08,South-KA
+2026-01-19,Metro Offc Solutions,Smart Power Relay Module,1.0,3351.39,North-DL
+2026/03/28 00:00,  Vanguard Retail Group ,Thermal Label Printer Pro,,24228.76,West-GJ
+2026-05-27,Omega Auto Comp.,Heavy-Duty Packaging Roll,,15977.36,North-DL
+2026/06/09 00:00,  Deccan Polymer India ,Industrial Sensor Kit v2,6.0,26651.54,North-DL
+20-Jul-2026,Zenith Industrial Supplies,Smart Power Relay Module,12.0,40136.53,West-GJ
+29/05/2026,Metro Office Solutions,Heavy-Duty Packaging Roll,6.0,7209.98,West-GJ
+02/05/2026,Sahyadri Agro,Smart Power Relay Module,11.0,"₹ 36,280.89",West-MH
+2026-06-18,Kurla Logistics & Packaging,Industrial Sensor Kit v2,1.0,4430.40,North-DL
+2025-10-22,Deccan Polymers India,Industrial Sensor Kit v2,9.0,Rs. 41659.13,North-DL
+2026-08-16,Omega Auto Components,Heavy-Duty Packaging Roll,20.0,22860.46,West-MH
+2026-04-15,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,1.0,Rs. 4591.66,South-KA
+21-Jan-2026,Sahyadri Agro Traders,High-Tensile Fastener Box,27.0,24970.21,North-DL
+2026-03-14,Western Coast Distributors,Thermal Label Printer Pro,4.0,"₹ 34,016.31",South-KA
+2026-07-25,Pinnacle MedTech Corp,Precision Bearing Assembly,15.0,40453.20,West-MH
+2026-07-01,Shree Ganesh Enterprises,Industrial Sensor Kit v2,1.0,4414.40,South-KA
+16/11/2025,Omega Auto Comp.,Precision Bearing Assembly,9.0,"₹ 25,638.53",West-GJ
+08/03/2026,Pinnacle MedTech Corp,Industrial Sensor Kit v2,8.0,35470.65,West-GJ
+31/10/2025,Bharat Hardware & Tools,Industrial Sensor Kit v2,,8914.07,North-DL
+30/08/2026,Western Coast Dist.,Smart Power Relay Module,7.0,23395.56,West-GJ
+2026-06-23,Shree Ganesh Entp,Precision Bearing Assembly,3.0,8331.40,North-DL
+2026-10-12,Deccan Polymers India,Thermal Label Printer Pro,,16619.74,West-GJ
+2025-12-03,Western Coast Distributors,Precision Bearing Assembly,9.0,25005.28,West-GJ
+27/07/2026,  Western Coast Distributors ,High-Tensile Fastener Box,30.0,"₹ 27,828.19",North-DL
+2026-01-08,Zenith Ind. Supplies,Thermal Label Printer Pro,2.0,Rs. 16638.68,North-DL
+25/03/2026,Deccan Polymers India,Smart Power Relay Module,7.0,"₹ 22,621.86",South-KA
+2026-02-15,Pinnacle MedTech Corp,Thermal Label Printer Pro,3.0,Rs. 26685.79,North-DL
+2025-10-15,Metro Office Solution,Thermal Label Printer Pro,,"INR 8,650",West-MH
+05-Feb-2026,Kurla Logistics & Packaging,High-Tensile Fastener Box,7.0,6420.46,West-GJ
+03/11/2025,Zenith Industrial Supplies,Smart Power Relay Module,8.0,25812.29,South-KA
+2026-08-03,Zenith Industrial Supplies,High-Tensile Fastener Box,24.0,23843.28,North-DL
+2026-10-09,Omega Auto Components,Thermal Label Printer Pro,3.0,"₹ 26,716.37",North-DL
+12-Nov-2025,Zentih Industrial Supplies,Precision Bearing Assembly,3.0,"INR 8,609",West-GJ
+2026-09-14,Omga Auto Components,High-Tensile Fastener Box,30.0,27812.33,West-MH
+2026-07-18,Deccan Polymers India,High-Tensile Fastener Box,22.0,"₹ 19,873.92",North-DL
+2026-08-15,  Sahyadri Agro Traders ,Precision Bearing Assembly,6.0,17434.15,West-MH
+2026-08-03,Sahyadri Agro,Smart Power Relay Module,2.0,"₹ 6,217.22",West-GJ
+18/06/2026,Bharat Hardware & Tools,High-Tensile Fastener Box,7.0,Rs. 6950.24,West-GJ
+2025-11-20,Vanguard Retail Group,High-Tensile Fastener Box,46.0,"₹ 45,111.44",North-DL
+2026-04-11,Deccan Polymers India,High-Tensile Fastener Box,,Rs. 27645.80,North-DL
+2025-12-28,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,31.0,"₹ 38,085.05",West-MH
+11-Nov-2025,Zenith Industrial Supplies,Heavy-Duty Packaging Roll,23.0,27244.27,West-MH
+2026-06-02,Kurla Logistics & Packaging,High-Tensile Fastener Box,10.0,9695.19,South-KA
+2026-06-19,Western Coast Distributors,High-Tensile Fastener Box,31.0,29889.75,West-MH
+2026-01-10,Kurla Logistics & Packaging,High-Tensile Fastener Box,5.0,"₹ 4,655.50",West-MH
+2026-05-01,Zenith Industrials,High-Tensile Fastener Box,26.0,24678.01,North-DL
+27/04/2026,Vanguard Retail Group,Smart Power Relay Module,17.0,55838.56,West-GJ
+2026-06-06,Western Coast Distributors,Industrial Sensor Kit v2,5.0,21792.71,North-DL
+2026-01-03,Omega Auto Components,Smart Power Relay Module,6.0,Rs. 18719.92,South-KA
+31-Aug-2026,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,6.0,28117.23,South-KA
+24/12/2025,Metro Office Solutions,High-Tensile Fastener Box,10.0,9840.88,West-GJ
+2026-01-01,Pinnacle MedTech Corp,Thermal Label Printer Pro,6.0,51885.59,West-GJ
+19/07/2026,Pinnacle Medtech,Heavy-Duty Packaging Roll,27.0,31523.90,West-GJ
+28/12/2025,Metro Office Solution,Heavy-Duty Packaging Roll,2.0,"INR 2,452",West-MH
+26-Mar-2026,  Bharath Hardware & Tools ,Industrial Sensor Kit v2,2.0,8625.20,North-DL
+2026-05-29,Kurla Logistics,High-Tensile Fastener Box,3.0,"₹ 2,808.47",West-MH
+17/01/2026,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,8264.01,West-GJ
+01-Oct-2026,  Vanguard Retail Group ,Precision Bearing Assembly,17.0,46387.88,South-KA
+2026-05-01,  Bharat Hardware & Tools ,Heavy-Duty Packaging Roll,3.0,Rs. 3765.55,South-KA
+05-Feb-2026,Metro Office Solution,Heavy-Duty Packaging Roll,9.0,Rs. 11200.17,North-DL
+2026-03-30,Omga Auto Components,Precision Bearing Assembly,6.0,"₹ 17,122.68",North-DL
+2026-03-24,Omega Auto Components,Thermal Label Printer Pro,3.0,"INR 25,520",West-MH
+2025-12-09,Western Coast Distributors,Industrial Sensor Kit v2,3.0,13465.24,West-MH
+2026-05-01,Western Coast Distributors,Industrial Sensor Kit v2,4.0,"INR 18,402",South-KA
+Subtotal,--- Page Subtotal ---,,,"₹ 9,99,999.00",
+,,,,,
+08-Jan-2026,Sahyadri Agro Traders,Industrial Sensor Kit v2,7.0,30502.84,North-DL
+2026-06-28,Zenith Industrial Supplies,High-Tensile Fastener Box,27.0,25362.27,West-MH
+2026-06-04,Bharat Hardware & Tools,Heavy-Duty Packaging Roll,6.0,7537.01,West-GJ
+2025-12-17,Omega Auto Components,High-Tensile Fastener Box,11.0,10767.49,West-GJ
+23/07/2026,Metro Office Solutions,Smart Power Relay Module,4.0,12608.67,West-GJ
+2025-11-10,Bharat Hardware & Tools,Precision Bearing Assembly,1.0,"INR 2,763",West-GJ
+2026-08-29,  Apex Electronic Pvt. Ltd. ,Precision Bearing Assembly,5.0,14226.36,North-DL
+03/02/2026,Vanguard Retail Group,Precision Bearing Assembly,11.0,31737.84,South-KA
+2026-09-01,Pinnacle MedTech Corp,Industrial Sensor Kit v2,13.0,56715.60,West-GJ
+2026-09-21,Apex Electronics Pvt Ltd,Smart Power Relay Module,12.0,37256.66,West-GJ
+09/03/2026,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,Rs. 8280.28,South-KA
+01/12/2025,Apax Electronics,Precision Bearing Assembly,5.0,"₹ 14,274.62",West-MH
+2026-06-13,Kurla Logistics & Packaging,Smart Power Relay Module,4.0,13046.22,West-GJ
+2025-11-13,Pinnacle MedTech Corp,High-Tensile Fastener Box,39.0,"₹ 37,555.27",South-KA
+2026-03-26,Metro Office Solutions,Thermal Label Printer Pro,1.0,8237.29,North-DL
+2026-01-15,Sahyadri Traders,Smart Power Relay Module,6.0,19700.83,West-MH
+2026-01-29,Omga Auto Components,Precision Bearing Assembly,,"₹ 13,663.41",West-GJ
+2026-09-07,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,2.0,9051.60,West-MH
+2026-10-01,Zenith Industrial Supplies,Thermal Label Printer Pro,2.0,17676.46,South-KA
+2026-09-24,Deccan Polymers India,Industrial Sensor Kit v2,8.0,34541.70,South-KA
+14/05/2026,  Sahyadri Traders ,Thermal Label Printer Pro,6.0,48655.79,West-MH
+2026-08-06,Vanguard Retails,Smart Power Relay Module,10.0,"₹ 30,471.76",South-KA
+2026-07-15,Metro Offc Solutions,Precision Bearing Assembly,4.0,"₹ 10,899.86",South-KA
+2026-03-25,Omega Auto Comp.,Industrial Sensor Kit v2,3.0,12877.57,South-KA
+10-Jul-2026,  Vanguard Retail Group ,Industrial Sensor Kit v2,16.0,72199.28,West-MH
+2026-06-28,Sahyadri Agro Traders,Precision Bearing Assembly,7.0,"₹ 19,511.34",West-GJ
+2026-07-06,  Zenith Industrials ,High-Tensile Fastener Box,,"INR 28,138",West-MH
+2026-03-23,Apex Electronics,Thermal Label Printer Pro,2.0,"INR 17,325",West-MH
+2026-09-17,  Western Coast Dist. ,Smart Power Relay Module,12.0,37537.11,South-KA
+2026-07-14,Kurla Logistics & Packaging,Industrial Sensor Kit v2,1.0,4561.17,West-MH
+19-Jul-2026,Vanguard Retail Group,Heavy-Duty Packaging Roll,32.0,39187.73,West-GJ
+2026-03-23,Zenith Industrial Supplies,Precision Bearing Assembly,10.0,"INR 28,945",West-MH
+29-Apr-2026,Zenith Industrial Supplies,Heavy-Duty Packaging Roll,16.0,19735.88,North-DL
+15-Apr-2026,Pinnacle MedTech Corp,High-Tensile Fastener Box,42.0,41249.24,North-DL
+2025-12-21,Pinnacle MedTech Corp,High-Tensile Fastener Box,37.0,"₹ 34,805.13",North-DL
+2026-02-10,  Sahyadri Traders ,Thermal Label Printer Pro,1.0,8561.72,South-KA
+2026-06-04,  Deccan Polymers India ,Industrial Sensor Kit v2,5.0,21446.42,South-KA
+2026-08-05,  Pinnacle MedTech Corp ,High-Tensile Fastener Box,41.0,39366.17,South-KA
+2026-06-08,Western Coast Distributors,Thermal Label Printer Pro,6.0,52210.87,West-MH
+2026-01-29,Decan Polymers,Precision Bearing Assembly,9.0,"₹ 24,784.90",West-GJ
+23/11/2025,Shri Ganesh Enterprises,Precision Bearing Assembly,1.0,2933.10,West-MH
+13-Jan-2026,Sahyadri Agro Traders,Thermal Label Printer Pro,3.0,"₹ 25,208.27",North-DL
+25-Jun-2026,  Deccan Polymers India ,Heavy-Duty Packaging Roll,10.0,"INR 11,675",West-MH
+2025-12-30,Bharat Hardware & Tools,Thermal Label Printer Pro,1.0,"₹ 8,160.83",South-KA
+2026-03-19,Kurla Packaging,High-Tensile Fastener Box,8.0,7447.53,West-MH
+03-Jul-2026,  Pinnacle MedTech Corp ,Smart Power Relay Module,9.0,Rs. 28098.61,West-MH
+2026-07-28,Omga Auto Components,Smart Power Relay Module,5.0,"₹ 15,748.23",North-DL
+26/03/2026,Shri Ganesh Enterprises,Precision Bearing Assembly,2.0,5591.34,West-GJ
+2026/04/29 00:00,Westrn Coast Distributors,Precision Bearing Assembly,8.0,"₹ 23,080.52",West-GJ
+2025/11/20 00:00,  Apex Electronics Pvt Ltd ,Precision Bearing Assembly,6.0,16098.22,West-GJ
+2026-05-15,Shree Ganesh Ent.,High-Tensile Fastener Box,5.0,4856.88,North-DL
+02/06/2026,Western Coast Distributors,Precision Bearing Assembly,11.0,"₹ 31,653.31",West-GJ
+2026/06/28 00:00,Omega Auto Components,Thermal Label Printer Pro,6.0,49445.35,South-KA
+2026-08-08,Zenith Industrial Supplies,Heavy-Duty Packaging Roll,22.0,"INR 26,380",South-KA
+06/07/2026,Sahyadri Agro Traders,Industrial Sensor Kit v2,5.0,"₹ 22,396.48",West-MH
+2026-07-18,Shree Ganesh Ent.,Industrial Sensor Kit v2,1.0,4363.39,North-DL
+12/06/2026,Western Coast Distributors,Smart Power Relay Module,10.0,32226.81,West-MH
+16/08/2026,Omega Auto Comp.,Thermal Label Printer Pro,1.0,8260.90,West-MH
+2026-03-13,Shree Ganesh Ent.,Smart Power Relay Module,2.0,6673.36,South-KA
+2025-12-21,Kurla Logistics & Packaging,Smart Power Relay Module,,6319.71,West-GJ
+2026-05-31,Shree Ganesh Enterprises,High-Tensile Fastener Box,7.0,6464.14,West-MH
+27/11/2025,Deccan Polymers Ind.,Heavy-Duty Packaging Roll,15.0,17549.40,North-DL
+18-Sep-2026,Vanguard Retail Group,Heavy-Duty Packaging Roll,27.0,33600.97,South-KA
+10-Nov-2025,Zenith Industrial Supplies,Smart Power Relay Module,9.0,"INR 28,199",West-GJ
+02-May-2026,  Metro Office Solutions ,Precision Bearing Assembly,,8371.69,South-KA
+2026/09/29 00:00,  Western Distributors ,Thermal Label Printer Pro,4.0,35698.50,South-KA
+2026-03-02,  Deccan Polymers India ,High-Tensile Fastener Box,30.0,"₹ 29,433.53",West-GJ
+2026/09/24 00:00,Omega Auto Components,Smart Power Relay Module,2.0,6297.86,West-MH
+19/10/2025,  Shree Ganesh Ent. ,Industrial Sensor Kit v2,3.0,13501.72,South-KA
+21/01/2026,Kurla Logistics & Packaging,Industrial Sensor Kit v2,1.0,"₹ 4,290.71",West-MH
+15-Dec-2025,Omega Auto Components,Precision Bearing Assembly,4.0,11142.92,West-GJ
+06/10/2026,Zenith Industrial Supplies,High-Tensile Fastener Box,30.0,"INR 29,140",South-KA
+2026-03-29,Metro Office Solutions,Smart Power Relay Module,2.0,6191.04,West-MH
+2026-02-27,  Kurla Logistics & Packaging ,Heavy-Duty Packaging Roll,5.0,5842.16,West-GJ
+2026-05-23,Western Coast Distributors,Precision Bearing Assembly,12.0,35041.93,South-KA
+2025-10-24,  Sahyadri Traders ,High-Tensile Fastener Box,,14469.12,West-GJ
+01/04/2026,Omega Auto,Thermal Label Printer Pro,3.0,25104.96,North-DL
+2025-11-19,  Omega Auto Components ,High-Tensile Fastener Box,19.0,18372.19,South-KA
+2026-09-29,  Deccan Polymers India ,High-Tensile Fastener Box,21.0,Rs. 20842.09,West-MH
+12/03/2026,Sahyadri Agro Traders,Industrial Sensor Kit v2,5.0,22986.11,North-DL
+2026-09-02,Zenith Industrials,High-Tensile Fastener Box,32.0,31889.93,West-MH
+2026-08-14,Omega Auto Components,Thermal Label Printer Pro,2.0,Rs. 16902.76,North-DL
+2025-11-02,Apex Electronics Pvt Ltd,High-Tensile Fastener Box,,"₹ 16,690.33",North-DL
+2026-07-16,Shree Ganesh Enterprises,Industrial Sensor Kit v2,,"₹ 4,442.63",North-DL
+2025-11-07,Pinnacle MedTech Corp,Industrial Sensor Kit v2,5.0,23553.17,West-MH
+23/08/2026,Sahyadri Agro Traders,Industrial Sensor Kit v2,4.0,18452.12,West-MH
+2026-05-21,Vanguard Retail Group,High-Tensile Fastener Box,41.0,Rs. 40524.98,West-GJ
+2026-02-01,Deccan Polymer India,Smart Power Relay Module,3.0,"₹ 9,323.95",West-GJ
+2026-04-22,Omega Auto Components,Thermal Label Printer Pro,,"₹ 26,508.69",North-DL
+2025-10-23,  Bharath Hardware & Tools ,Industrial Sensor Kit v2,3.0,"₹ 13,082.32",South-KA
+2026-06-15,Metro Office Solution,High-Tensile Fastener Box,9.0,8632.15,West-GJ
+2026-10-04,Pinnacle MedTech Corp,Precision Bearing Assembly,18.0,"₹ 48,467.58",South-KA
+2026/05/17 00:00,Deccan Polymers India,Industrial Sensor Kit v2,10.0,44220.58,West-GJ
+2026-08-31,Sahyadri Agro,Heavy-Duty Packaging Roll,18.0,"₹ 21,766.01",North-DL
+2026-01-13,Sahyadri Agro Traders,Industrial Sensor Kit v2,3.0,12915.77,South-KA
+04/06/2026,Pinnacle MedTech Corp,Thermal Label Printer Pro,3.0,25582.34,West-MH
+12/02/2026,Zenith Industrials,Smart Power Relay Module,7.0,"INR 23,452",West-GJ
+2026-03-30,Zenith Industrial Supplies,Precision Bearing Assembly,10.0,26740.98,North-DL
+2026-06-20,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,32.0,38837.65,West-GJ
+2026-01-22,Sahyadri Agro Traders,Heavy-Duty Packaging Roll,9.0,10647.95,South-KA
+2025-12-10,Bharath Hardware & Tools,Heavy-Duty Packaging Roll,7.0,8051.14,West-GJ
+10-Jan-2026,Shree Ganesh Enterprises,Heavy-Duty Packaging Roll,7.0,8365.66,West-GJ
+14-Jun-2026,Pinacle MedTech Corp.,High-Tensile Fastener Box,38.0,34723.30,North-DL
+05-Feb-2026,Pinnacle MedTech,Heavy-Duty Packaging Roll,41.0,49355.33,West-MH
+2026-06-12,Apex Electronic Pvt. Ltd.,Precision Bearing Assembly,3.0,"₹ 8,531.38",West-MH
+2026-06-25,Sahyadri Agro Traders,Industrial Sensor Kit v2,3.0,13388.85,South-KA
+2026-02-14,  Kurla Logistics & Packaging ,Precision Bearing Assembly,1.0,2831.58,West-MH
+09-Jun-2026,Sahyadari Agro Traders,Precision Bearing Assembly,6.0,17328.65,West-MH
+2025-11-20,Shree Ganesh Enterprises,Thermal Label Printer Pro,,8292.04,West-GJ
+25-Nov-2025,Shree Ganesh Enterprises,Industrial Sensor Kit v2,1.0,4434.70,West-MH
+29/04/2026,Zenith Industrial Supplies,Smart Power Relay Module,6.0,"₹ 19,828.42",West-GJ
+04/04/2026,  Bharat Hardware & Tools ,Precision Bearing Assembly,1.0,"INR 2,777",West-GJ
+2026-02-07,Omega Auto Components,Thermal Label Printer Pro,2.0,16543.35,South-KA
+20/06/2026,Sahyadri Agro Traders,Precision Bearing Assembly,12.0,33359.62,South-KA
+28-Aug-2026,Sahyadri Agro Traders,High-Tensile Fastener Box,13.0,12399.77,North-DL
+2025-11-25,Zenith Industrial Supplies,Industrial Sensor Kit v2,8.0,"₹ 36,262.95",North-DL
+27/01/2026,Bharat Hardware & Tools,Smart Power Relay Module,1.0,"INR 3,127",North-DL
+2026-05-18,Deccan Polymers India,Smart Power Relay Module,5.0,"₹ 16,273.75",South-KA
+08/04/2026,Metro Office Solution,Precision Bearing Assembly,6.0,"₹ 16,973.93",North-DL
+2026-03-19,Sahyadri Agro Traders,Smart Power Relay Module,6.0,18829.86,South-KA
+Subtotal,--- Page Subtotal ---,,,"₹ 9,99,999.00",
+,,,,,
+2025-12-29,Apex Electronics Pvt Ltd,Heavy-Duty Packaging Roll,14.0,16229.18,West-GJ
+2026-01-01,  Bharat Hardware & Tools ,Smart Power Relay Module,1.0,3282.33,West-GJ
+2026-10-12,Western Coast Distributors,Smart Power Relay Module,18.0,Rs. 56984.28,South-KA
+27-Oct-2025,Zenith Industrial Supplies,Heavy-Duty Packaging Roll,15.0,18291.09,South-KA
+15/03/2026,Shree Ganesh Enterprises,Thermal Label Printer Pro,1.0,"₹ 8,273.74",North-DL
+02/10/2026,Deccan Polymers India,Industrial Sensor Kit v2,4.0,18663.14,North-DL
+2026-02-04,  Pinnacle MedTech Corp ,Industrial Sensor Kit v2,5.0,21439.47,South-KA
+2025-10-26,Vanguard Retail Group,High-Tensile Fastener Box,40.0,39092.01,West-GJ
+2026-03-26,Sahyadri Agro Traders,Industrial Sensor Kit v2,1.0,4539.76,North-DL
+2026-04-30,Deccan Polymers India,Smart Power Relay Module,9.0,28587.23,West-GJ
+30-May-2026,Omega Auto Comp.,Precision Bearing Assembly,8.0,Rs. 23230.34,North-DL
+2026-05-15,Omega Auto Components,Industrial Sensor Kit v2,3.0,Rs. 13489.92,South-KA
+2026-08-13,  Zenith Industrials ,Precision Bearing Assembly,9.0,24615.80,North-DL
+2026-08-01,  Omega Auto Comp. ,Heavy-Duty Packaging Roll,15.0,18323.45,South-KA
+2026-03-19,Pinnacle MedTech Corp,Heavy-Duty Packaging Roll,,29675.73,North-DL
+14/09/2026,Zenith Industrials,Heavy-Duty Packaging Roll,26.0,31641.49,West-MH
+2026-06-24,  Kurla Packaging ,High-Tensile Fastener Box,6.0,5798.26,South-KA
+15/06/2026,Shree Ganesh Entp,Smart Power Relay Module,4.0,"₹ 13,104.58",West-GJ
+2025-11-13,Pinnacle MedTech Corp,High-Tensile Fastener Box,41.0,38056.66,North-DL
+2026-04-15,Shree Ganesh Enterprises,High-Tensile Fastener Box,9.0,"₹ 8,522.37",West-GJ
+17/08/2026,Zenith Industrials,Smart Power Relay Module,12.0,39622.58,South-KA
+2026-07-15,Zenith Industrial Supplies,Industrial Sensor Kit v2,4.0,"₹ 18,477.65",North-DL
+06/01/2026,Deccan Polymers India,Heavy-Duty Packaging Roll,13.0,14980.43,West-MH
+2026-06-07,  Metro Solutions ,Heavy-Duty Packaging Roll,11.0,13554.53,South-KA
+2026-05-29,Bharat Hardware,Smart Power Relay Module,2.0,"₹ 6,480.21",West-MH
+2025-12-19,  Vangaurd Retail Group ,Heavy-Duty Packaging Roll,30.0,Rs. 34415.80,North-DL
+2025-12-11,Omega Auto Components,Precision Bearing Assembly,,"₹ 13,969.94",West-MH
+14/12/2025,  Sahyadri Traders ,Smart Power Relay Module,3.0,"₹ 9,198.33",West-GJ
+25/01/2026,Pinnacle MedTech Corp,Industrial Sensor Kit v2,5.0,22040.85,South-KA
+05/01/2026,Decan Polymers,Thermal Label Printer Pro,2.0,17663.65,West-MH
+2026-02-03,Western Coast Dist.,Heavy-Duty Packaging Roll,24.0,Rs. 28800.80,West-MH
+2026-06-30,Vangaurd Retail Group,High-Tensile Fastener Box,26.0,Rs. 24949.25,West-GJ
+2026/04/27 00:00,Deccan Polymers India,Precision Bearing Assembly,11.0,32173.45,West-MH
+2025-12-23,Western Coast Distributors,Smart Power Relay Module,2.0,6219.45,West-MH
+2026-03-09,Metro Office Solutions,High-Tensile Fastener Box,13.0,12465.42,South-KA
+2026-01-19,Metro Offc Solutions,Precision Bearing Assembly,1.0,2864.06,North-DL
+2025-12-07,Shree Ganesh Enterprises,High-Tensile Fastener Box,5.0,4907.47,West-MH
+09-Jan-2026,Omega Auto Components,Smart Power Relay Module,6.0,18240.06,West-GJ
+27/06/2026,Metro Office Solutions,Thermal Label Printer Pro,1.0,"₹ 8,291.31",North-DL
+2026-06-15,Deccan Polymer India,Precision Bearing Assembly,6.0,16882.11,West-MH
+22/06/2026,Kurla Logistics & Packaging,Heavy-Duty Packaging Roll,,"₹ 4,711.16",North-DL
+2025-10-28,Shree Ganesh Entp,High-Tensile Fastener Box,9.0,8383.91,West-MH
+2026-07-08,Shree Ganesh Ent.,Heavy-Duty Packaging Roll,6.0,7256.51,South-KA
+2026-07-21,Western Coast Distributors,Precision Bearing Assembly,13.0,37322.64,North-DL
+2026-06-07,Sahyadri Agro Traders,High-Tensile Fastener Box,22.0,"₹ 21,381.22",North-DL
+2025-12-22,Metro Office Solutions,Industrial Sensor Kit v2,1.0,4286.56,North-DL
+29/07/2026,Sahyadari Agro Traders,Precision Bearing Assembly,5.0,14648.87,South-KA
+2026-03-28,Kurla Logistics & Packaging,Heavy-Duty Packaging Roll,4.0,"₹ 4,587.37",West-MH
+2026-04-07,Shree Ganesh Enterprises,Smart Power Relay Module,1.0,3227.39,West-GJ
+2026-03-23,Shree Ganesh Enterprises,Industrial Sensor Kit v2,1.0,4562.00,South-KA
+2026-06-07,Apex Electronic Pvt. Ltd.,Thermal Label Printer Pro,1.0,"₹ 8,498.41",West-MH
+2026-04-26,Deccan Polymers India,Industrial Sensor Kit v2,7.0,"₹ 31,074.19",South-KA
+2026-06-29,Sahyadari Agro Traders,Heavy-Duty Packaging Roll,15.0,17441.89,North-DL
+2025-11-22,Shree Ganesh Ent.,Smart Power Relay Module,4.0,12564.19,West-GJ
+2025-12-01,Pinnacle Medtech,Thermal Label Printer Pro,3.0,"₹ 25,947.94",North-DL
+2026-01-30,  Metro Office Solutions ,Smart Power Relay Module,3.0,"₹ 10,017.34",South-KA
+2026-05-15,Vanguard Retail Group,Precision Bearing Assembly,9.0,"INR 25,413",West-GJ
+2026-06-27,Pinnacle MedTech Corp,High-Tensile Fastener Box,29.0,27566.34,North-DL
+2026-08-31,Pinnacle MedTech Corp,Precision Bearing Assembly,10.0,"₹ 29,393.70",South-KA
+13-May-2026,Metro Office Solutions,Industrial Sensor Kit v2,2.0,8653.63,South-KA
+2026-01-05,Shree Ganesh Enterprises,Precision Bearing Assembly,3.0,8351.31,South-KA
+2026-06-20,Sahyadri Agro Traders,High-Tensile Fastener Box,19.0,18616.27,West-MH
+2026-03-06,Kurla Logistics,Industrial Sensor Kit v2,3.0,13469.51,West-MH
+19/08/2026,  Deccan Polymers India ,Precision Bearing Assembly,7.0,"INR 19,029",North-DL
+2025-12-25,Omega Auto Components,Thermal Label Printer Pro,1.0,"₹ 8,544.51",South-KA
+30/11/2025,  Sahyadri Agro Traders ,Smart Power Relay Module,6.0,19326.43,West-GJ
+2026-02-03,Metro Office Solutions,Smart Power Relay Module,3.0,9265.39,North-DL
+24/04/2026,  Western Coast Dist. ,Thermal Label Printer Pro,2.0,Rs. 17747.27,West-GJ
+15-Jun-2026,Deccan Polymer India,Industrial Sensor Kit v2,5.0,23239.47,West-MH
+23/09/2026,Omega Auto Components,Smart Power Relay Module,8.0,"INR 25,358",West-MH
+13-Feb-2026,Westrn Coast Distributors,Precision Bearing Assembly,11.0,29667.11,West-GJ
+30-Jan-2026,Kurla Logisitcs & Pkg,Precision Bearing Assembly,2.0,"₹ 5,350.56",North-DL
+2026-03-04,Apax Electronics,Precision Bearing Assembly,8.0,"₹ 22,070.95",North-DL
+05/01/2026,Zenith Industrials,Smart Power Relay Module,13.0,39767.88,South-KA
+2026-10-05,  Sahyadri Agro Traders ,High-Tensile Fastener Box,24.0,22853.36,West-MH
+2026-01-25,Metro Office Solutions,Industrial Sensor Kit v2,1.0,"₹ 4,311.05",West-GJ
+01/10/2026,Pinnacle MedTech Corp,Precision Bearing Assembly,18.0,48809.67,South-KA
+24-Jan-2026,Kurla Logistics & Packaging,Precision Bearing Assembly,1.0,"INR 2,674",West-GJ
+2025-10-26,Apex Electronics,High-Tensile Fastener Box,19.0,18019.85,South-KA
+2026-01-09,Omega Auto Components,Thermal Label Printer Pro,2.0,17009.68,West-MH
+2026-07-11,Apex Electronics Pvt Ltd,Precision Bearing Assembly,5.0,14643.71,West-GJ
+2026-02-28,Vanguard Retail Group,Heavy-Duty Packaging Roll,15.0,17179.32,South-KA
+2026/09/26 00:00,Omega Auto Components,Heavy-Duty Packaging Roll,,15827.09,North-DL
+2026-04-22,Vanguard Retail Group,Industrial Sensor Kit v2,,21660.62,North-DL
+2026-01-31,Shri Ganesh Enterprises,High-Tensile Fastener Box,7.0,6571.62,West-MH
+2026/02/12 00:00,Deccan Polymers India,Thermal Label Printer Pro,1.0,8078.56,West-MH
+2026-02-21,Apex Electronics Pvt Ltd,Precision Bearing Assembly,5.0,"INR 13,770",West-MH
+2026-01-14,Pinnacle MedTech Corp,Smart Power Relay Module,7.0,23423.05,North-DL
+2026/02/25 00:00,  Bharat Hardware & Tools ,Heavy-Duty Packaging Roll,5.0,5807.42,South-KA
+2026-03-08,Metro Solutions,Smart Power Relay Module,5.0,15648.96,North-DL
+2026-07-26,Bharath Hardware & Tools,Precision Bearing Assembly,4.0,11570.30,West-MH
+25-Feb-2026,Sahyadri Agro Traders,Industrial Sensor Kit v2,4.0,18538.48,South-KA
+2026-07-29,Omega Auto Components,High-Tensile Fastener Box,19.0,17905.62,South-KA
+09/01/2026,Bharat Hardwares,Thermal Label Printer Pro,2.0,17622.92,West-MH
+03/08/2026,Western Coast Distributors,Heavy-Duty Packaging Roll,16.0,"INR 18,509",West-MH
+2025-12-16,Kurla Logistics & Packaging,Industrial Sensor Kit v2,1.0,4456.23,North-DL
+2026-09-01,Sahyadri Traders,Industrial Sensor Kit v2,4.0,17339.42,North-DL
+02/08/2026,Deccan Polymers India,High-Tensile Fastener Box,21.0,"₹ 19,917.69",North-DL
+07-May-2026,Zenith Industrial Supplies,Precision Bearing Assembly,10.0,27593.53,North-DL
+01-Jan-2026,Kurla Logistics & Packaging,Precision Bearing Assembly,2.0,"INR 5,709",West-GJ
+20-Sep-2026,Deccan Polymers India,Heavy-Duty Packaging Roll,20.0,24564.06,North-DL
+2026-05-19,Zenith Ind. Supplies,Precision Bearing Assembly,8.0,22391.58,North-DL
+06/02/2026,Shree Ganesh Enterprises,Precision Bearing Assembly,2.0,5647.50,North-DL
+24/11/2025,Metro Solutions,Heavy-Duty Packaging Roll,9.0,10284.37,West-GJ
+2026-05-21,  Western Coast Distributors ,Industrial Sensor Kit v2,11.0,48246.94,North-DL
+09/06/2026,Zenith Industrials,Smart Power Relay Module,6.0,"₹ 18,569.91",West-MH
+2026-09-18,Zenith Industrial Supplies,Precision Bearing Assembly,,"₹ 23,369.37",South-KA
+04-Jun-2026,Pinnacle Medtech,Smart Power Relay Module,17.0,"₹ 54,751.37",West-GJ
+2025-11-24,Bharat Hardwares,High-Tensile Fastener Box,10.0,9234.62,West-MH
+2026/01/10 00:00,Apex Electronic Pvt. Ltd.,Precision Bearing Assembly,7.0,19424.94,North-DL
+2026-04-17,Kurla Logistics,High-Tensile Fastener Box,10.0,9663.12,West-MH
+2025-12-11,Vangaurd Retail Group,Heavy-Duty Packaging Roll,29.0,33779.73,West-GJ
+2026-07-17,Metro Office Solutions,Precision Bearing Assembly,4.0,10900.09,West-GJ
+09/10/2026,Omega Auto Components,Industrial Sensor Kit v2,9.0,42347.98,North-DL
+2026-04-03,Apex Electronics Pvt Ltd,High-Tensile Fastener Box,17.0,15443.33,South-KA
+21/06/2026,Apex Electronics Pvt Ltd,High-Tensile Fastener Box,19.0,"₹ 17,596.11",North-DL
+2026-10-15,  Vanguard Retail Group ,Thermal Label Printer Pro,8.0,"INR 71,026",North-DL
+2025-12-13,Sahyadri Agro Traders,Smart Power Relay Module,5.0,15699.30,West-GJ
+2026-04-09,Sahyadri Agro Traders,Thermal Label Printer Pro,2.0,17769.06,North-DL
+14/03/2026,Bharat Hardwares,Precision Bearing Assembly,5.0,"₹ 14,501.91",North-DL
+Subtotal,--- Page Subtotal ---,,,"₹ 9,99,999.00",
+,,,,,
+2026-01-29,Bharat Hardware & Tools,High-Tensile Fastener Box,7.0,6794.61,North-DL
+2026-05-15,Zentih Industrial Supplies,Heavy-Duty Packaging Roll,21.0,24906.16,South-KA
+2026-09-26,Deccan Polymers India,Thermal Label Printer Pro,,26061.98,West-GJ
+29/07/2026,Zenith Industrial Supplies,Smart Power Relay Module,13.0,"₹ 41,216.36",South-KA
+2026-07-05,  Bharat Hardware & Tools ,Industrial Sensor Kit v2,1.0,4707.64,West-MH
+2026-08-23,Zenith Industrial Supplies,Industrial Sensor Kit v2,7.0,30363.65,West-MH
+2026-04-18,Vanguard Retail Group,Precision Bearing Assembly,11.0,"INR 30,863",West-GJ
+2026-04-19,  Shree Ganesh Enterprises ,Heavy-Duty Packaging Roll,6.0,"₹ 6,892.82",West-GJ
+07/04/2026,Sahyadri Agro Traders,Smart Power Relay Module,7.0,22218.49,West-GJ
+2026-07-13,Bharat Hardware & Tools,Precision Bearing Assembly,3.0,8249.52,South-KA
+2026-05-29,  Apex Electronics Pvt Ltd ,Thermal Label Printer Pro,4.0,32486.09,West-GJ
+15/11/2025,  Metro Office Solutions ,High-Tensile Fastener Box,7.0,Rs. 6463.56,South-KA
+2026-05-08,Metro Solutions,Smart Power Relay Module,1.0,3332.80,South-KA
+23-Aug-2026,Western Distributors,Precision Bearing Assembly,15.0,40604.82,North-DL
+09-Apr-2026,Omega Auto,Precision Bearing Assembly,5.0,14017.35,South-KA
+18/12/2025,Metro Office Solutions,Heavy-Duty Packaging Roll,5.0,6296.60,West-GJ
+29/10/2025,Apex Electronics,Smart Power Relay Module,3.0,"₹ 9,496.14",West-MH
+2025-11-14,Omga Auto Components,Thermal Label Printer Pro,3.0,"₹ 25,522.68",West-MH
+16-Mar-2026,  Sahyadri Agro Traders ,Smart Power Relay Module,4.0,Rs. 13425.72,West-GJ
+2026-03-17,Deccan Polymers India,High-Tensile Fastener Box,30.0,28609.43,West-GJ
+2026-03-31,Zenith Industrial Supplies,Smart Power Relay Module,6.0,18690.73,North-DL
+2025-12-01,Zenith Industrial Supplies,Precision Bearing Assembly,3.0,"₹ 8,238.57",North-DL
+28/07/2026,Pinnacle MedTech Corp,Smart Power Relay Module,10.0,Rs. 30618.20,North-DL
+2026-05-16,  Omga Auto Components ,Heavy-Duty Packaging Roll,12.0,Rs. 14099.56,West-MH
+2026-01-31,  Omega Auto Components ,Heavy-Duty Packaging Roll,14.0,Rs. 17431.52,North-DL
+2025-12-15,Zenith Industrial Supplies,Thermal Label Printer Pro,3.0,Rs. 26656.18,South-KA
+20-Jun-2026,  Kurla Logistics & Packaging ,Thermal Label Printer Pro,1.0,8328.00,South-KA
+2026-01-16,Vangaurd Retail Group,Industrial Sensor Kit v2,6.0,25840.45,North-DL
+22/03/2026,Pinnacle MedTech Corp,Precision Bearing Assembly,23.0,66468.85,West-GJ
+05/09/2026,Western Coast Distributors,Precision Bearing Assembly,12.0,35130.31,North-DL
+11-Feb-2026,Metro Solutions,Industrial Sensor Kit v2,2.0,"₹ 9,318.55",West-MH
+27/10/2025,Bharat Hardware & Tools,High-Tensile Fastener Box,8.0,7439.62,West-MH
+27/08/2026,Vanguard Retail Group,Thermal Label Printer Pro,3.0,25987.68,West-MH
+2026-09-17,Zentih Industrial Supplies,Industrial Sensor Kit v2,6.0,"₹ 27,127.02",North-DL
+15-Jul-2026,Zenith Industrial Supplies,Industrial Sensor Kit v2,3.0,13194.88,West-GJ
+2025/10/27 00:00,Metro Offc Solutions,Smart Power Relay Module,3.0,9291.93,South-KA
+16/01/2026,  Bharat Hardware & Tools ,Smart Power Relay Module,2.0,6568.65,South-KA
+2025-10-28,Bharat Hardwares,Industrial Sensor Kit v2,1.0,4716.57,North-DL
+2025-11-10,Zenith Industrial Supplies,Thermal Label Printer Pro,4.0,32796.47,West-MH
+2025-11-15,Kurla Logistics & Packaging,Industrial Sensor Kit v2,5.0,22128.28,West-MH
+25/07/2026,Kurla Packaging,Heavy-Duty Packaging Roll,4.0,4950.90,North-DL
+2025/11/26 00:00,Sahyadari Agro Traders,Heavy-Duty Packaging Roll,13.0,"₹ 15,126.83",North-DL
+2026/06/03 00:00,Western Coast Distributors,Thermal Label Printer Pro,3.0,26000.00,North-DL
+2026-02-20,Kurla Logisitcs & Pkg,Smart Power Relay Module,2.0,"₹ 6,380.19",South-KA
+05/01/2026,Apex Electronic Pvt. Ltd.,Smart Power Relay Module,4.0,"₹ 13,035.35",South-KA
+30-Jan-2026,Metro Office Solutions,Smart Power Relay Module,1.0,3260.82,North-DL
+17/02/2026,Kurla Logistics,Heavy-Duty Packaging Roll,2.0,2337.79,West-GJ
+2025-10-16,  Shree Ganesh Enterprises ,Industrial Sensor Kit v2,1.0,"INR 4,341",North-DL
+2026-07-17,Metro Office Solutions,High-Tensile Fastener Box,5.0,"₹ 4,658.65",North-DL
+2025-12-17,Shree Ganesh Enterprises,Thermal Label Printer Pro,1.0,"₹ 8,895.96",West-MH
+2026-06-08,Zenith Industrial Supplies,Industrial Sensor Kit v2,7.0,32811.94,South-KA
+2025/11/30 00:00,Vangaurd Retail Group,High-Tensile Fastener Box,36.0,Rs. 35088.60,West-MH
+2026/06/24 00:00,Kurla Packaging,Heavy-Duty Packaging Roll,,5854.24,West-MH
+28/06/2026,Kurla Logistics & Packaging,High-Tensile Fastener Box,9.0,8900.16,West-GJ
+12-Aug-2026,  Zenith Industrial Supplies ,Smart Power Relay Module,14.0,"INR 44,360",South-KA
+2026-09-27,Vanguard Retail Group,High-Tensile Fastener Box,43.0,41867.01,North-DL
+2026-05-21,Apex Electronics Pvt Ltd,Industrial Sensor Kit v2,5.0,"₹ 22,031.80",North-DL
+2025-12-16,Kurla Logistics,Smart Power Relay Module,2.0,"₹ 6,699.05",West-MH
+2026-05-18,Kurla Logistics & Packaging,Precision Bearing Assembly,4.0,11228.06,West-MH
+2026-02-07,Omega Auto,Industrial Sensor Kit v2,3.0,13103.07,West-MH
