@@ -1,3 +1,70 @@
+
+def generate_executive_action_plan(api_key, df, rfm_df):
+    if not api_key:
+        return "✨ **Autonomous AI Action Plan:** Connect your Gemini API Key in the sidebar to generate a prioritized 30-day executive roadmap."
+    try:
+        client = genai.Client(api_key=api_key)
+        prompt = f"""
+        You are a Chief Strategy Officer. Based on a scrubbed sales dataset of {len(df)} rows and customer RFM churn scores, write a concise, bulleted 30-day tactical action plan for the CEO to boost revenue and save at-risk accounts. Keep it actionable and high-impact.
+        """
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+        return response.text
+    except Exception as e:
+        return f"⚠️ **AI Notice:** Could not generate action plan ({str(e)})."
+
+
+
+def generate_ai_anomaly_report(api_key, df):
+    if not api_key:
+        return "✨ **AI Anomaly & Outlier Guard:** Connect your Gemini API Key in the sidebar to enable automated detection of unusual sales spikes, billing errors, and customer concentration risks."
+    try:
+        client = genai.Client(api_key=api_key)
+        summary_stats = df.describe().to_string() if not df.empty else "No data"
+        prompt = f"""
+        You are an expert Forensic Financial Analyst. Review these dataset statistics and identify 2 critical anomalies or risk factors that management should investigate immediately:
+        {summary_stats}
+        Keep it brief, punchy, and formatted with bullet points.
+        """
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+        return response.text
+    except Exception as e:
+        return f"⚠️ **AI Notice:** Could not generate anomaly report ({str(e)})."
+
+
+
+def generate_gemini_board_memo(api_key, df, rfm_df, user_prompt=None):
+    if not api_key:
+        return "✨ **Autonomous Executive Memo:** Connect your Gemini API Key in the sidebar to unlock generative AI board briefings, custom trend analysis, and natural-language data interrogation."
+    try:
+        client = genai.Client(api_key=api_key)
+        total_rev = float(df["Revenue"].sum()) if "Revenue" in df.columns else 0.0
+        row_count = len(df)
+        cust_count = len(df["Customer"].unique()) if "Customer" in df.columns else len(rfm_df)
+        
+        prompt = f"""
+        You are an elite CFO and Business Intelligence AI. Analyze this sales ledger summary:
+        - Total Scrubbed Revenue: INR {total_rev:,.2f}
+        - Total Validated Transactions: {row_count}
+        - Total Unique Customers: {cust_count}
+        - User Query / Objective: {user_prompt if user_prompt else 'Provide an executive board briefing on revenue health and churn risks.'}
+
+        Provide a concise, highly professional 2-paragraph executive memo formatted in markdown with bold key takeaways.
+        """
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+        return response.text
+    except Exception as e:
+        return f"⚠️ **Gemini AI Notice:** Could not generate AI summary ({str(e)}). Displaying standard deterministic KPIs."
+
+
 """
 PulseBI Studio — Main Streamlit Application Entry Point
 End-to-End Automated Data Prep, Predictive Business Modelling & Power BI Star-Schema Suite.
@@ -63,7 +130,90 @@ def main() -> None:
         initial_sidebar_state="expanded",
     )
 
+    
     cfg = render_sidebar()
+
+    # --- MINIMALIST LANDING GATE & EXECUTIVE VIEW ---
+    if "workspace_active" not in st.session_state:
+        st.session_state["workspace_active"] = False
+    if "active_playbook" not in st.session_state:
+        st.session_state["active_playbook"] = "CFO Board Brief"
+
+    if getattr(cfg, "uploaded_file", None) is not None:
+        st.session_state["workspace_active"] = True
+
+    if not st.session_state["workspace_active"]:
+        st.markdown(
+            """
+            <div style="text-align: center; padding: 6vh 0px 10px 0px;">
+                <div style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px; border-radius: 999px; background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); color: #38bdf8; font-family: JetBrains Mono, monospace; font-size: 8.5pt; font-weight: 600; margin-bottom: 16px;">◈ AUTONOMOUS BI & CFO INTELLIGENCE ENGINE</div>
+                <h1 style="font-size: 42pt; font-weight: 800; color: #ffffff; margin-bottom: 12px; letter-spacing: -1px;">PulseBI Studio</h1>
+                <p style="font-size: 13pt; color: #94a3b8; max-width: 600px; margin: 0 auto 28px auto; line-height: 1.6;">
+                    Zero SQL. Zero manual prep. Drop any raw sales ledger or pick an instant playbook—PulseBI scrubs entities, predicts churn, and compiles a Power BI model in <b>under 3 seconds</b>.
+                </p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        _, c_mid, _ = st.columns([0.7, 2.6, 0.7])
+        with c_mid:
+            ai_intent = st.text_input("Command Bar", placeholder="Ask PulseBI or type an objective (e.g., 'Audit Q3 revenue & isolate high-risk accounts')...", label_visibility="collapsed")
+            home_upload = st.file_uploader("Drop CSV or Excel file", type=["csv", "xlsx", "xls"], label_visibility="collapsed")
+            
+            p1, p2, p3, p4 = st.columns(4)
+            with p1:
+                if st.button("◈ CFO Brief", use_container_width=True, type="primary"):
+                    st.session_state["active_playbook"] = "CFO Board Brief"
+                    st.session_state["workspace_active"] = True
+                    st.rerun()
+            with p2:
+                if st.button("❖ Churn Radar", use_container_width=True):
+                    st.session_state["active_playbook"] = "Churn Radar"
+                    st.session_state["workspace_active"] = True
+                    st.rerun()
+            with p3:
+                if st.button("⚡ Scrub Ledger", use_container_width=True):
+                    st.session_state["active_playbook"] = "Scrub Ledger"
+                    st.session_state["workspace_active"] = True
+                    st.rerun()
+            with p4:
+                if st.button("✦ Power BI Model", use_container_width=True):
+                    st.session_state["active_playbook"] = "Power BI Model"
+                    st.session_state["workspace_active"] = True
+                    st.rerun()
+
+            if home_upload is not None:
+                st.session_state["home_uploaded_file"] = home_upload
+                st.session_state["workspace_active"] = True
+                st.rerun()
+            if ai_intent:
+                st.session_state["active_playbook"] = ai_intent
+                st.session_state["workspace_active"] = True
+                st.rerun()
+        return
+
+    if "home_uploaded_file" in st.session_state and st.session_state["home_uploaded_file"] is not None:
+        cfg.uploaded_file = st.session_state["home_uploaded_file"]
+        cfg.use_sample_data = False
+        cfg.dataset_name = st.session_state["home_uploaded_file"].name
+
+    top_l, top_m, top_r = st.columns([3.5, 1.5, 0.9])
+    with top_l:
+        pb_name = st.session_state.get("active_playbook", "CFO Board Brief").upper()
+        st.markdown(
+            f'<div style="display:flex; align-items:center; gap:12px; padding-top:4px;"><span style="font-size:18pt; font-weight:800; color:#ffffff;">PulseBI</span><span style="font-family:JetBrains Mono,monospace; font-size:8.5pt; color:#38bdf8; background:rgba(56,189,248,0.12); border:1px solid rgba(56,189,248,0.3); padding:4px 12px; border-radius:999px;">◈ {pb_name}</span></div>',
+            unsafe_allow_html=True,
+        )
+    with top_m:
+        pro_mode = st.toggle("◈ Deep-Dive Analyst View", value=False)
+    with top_r:
+        if st.button("← Home", use_container_width=True):
+            st.session_state["workspace_active"] = False
+            st.session_state.pop("home_uploaded_file", None)
+            st.rerun()
+    st.markdown("<hr style='margin: 8px 0 18px 0; border-color: rgba(148,163,184,0.12);'>", unsafe_allow_html=True)
+
 
     st.markdown(
         f"## ⚡ **{APP_TITLE}** `v{APP_VERSION}`\n"
