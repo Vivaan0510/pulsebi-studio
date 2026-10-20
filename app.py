@@ -509,7 +509,7 @@ def main() -> None:
 
 
     st.markdown(
-        f"## ⚡ **{APP_TITLE}** `v{APP_VERSION}`\n"
+        f"## ⚡ **{APP_TITLE}**\n"
         "Automated Dirty Excel/CSV Scrubber • Explainable RFM Churn ML • 90-Day Revenue Forecasting • Power BI Star-Schema & DAX Compiler"
     )
 

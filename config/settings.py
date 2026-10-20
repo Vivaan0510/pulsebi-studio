@@ -3,7 +3,7 @@ Global configuration, heuristic schema dictionaries, and Indian FY settings for 
 """
 
 APP_TITLE = "PulseBI — Auto-Prep, Predictive BI & Executive Studio"
-APP_VERSION = "1.0.0"
+APP_VERSION = ""
 
 # Heuristic keyword banks for Universal Schema Auto-Mapper
 SCHEMA_KEYWORDS = {
