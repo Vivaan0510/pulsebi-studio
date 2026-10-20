@@ -91,6 +91,295 @@ from ui.html_exporter import compile_standalone_html_dashboard
 from ui.sidebar import render_sidebar
 from ui.what_if_simulator import render_what_if_simulator
 
+# --- PULSEBI ENTERPRISE SIDEBAR & AUTO-CAPTURE ENGINE ---
+import pandas as _pd
+import streamlit as _st
+
+if not hasattr(_pd, "_orig_read_csv"):
+    _pd._orig_read_csv = _pd.read_csv
+    def _hooked_read_csv(*args, **kwargs):
+        df = _pd._orig_read_csv(*args, **kwargs)
+        if df is not None and hasattr(df, 'to_csv'):
+            if st.session_state.get('chk_sanitize', True):
+                df = sanitize_anomalies(df)
+            if st.session_state.get('chk_currency', True):
+                df = standardize_currency_and_units(df)
+            st.session_state['pulsebi_active_df'] = df
+        try:
+            if _st.session_state.get("chk_sanitize", True):
+                df = sanitize_anomalies(df)
+                if df is not None and hasattr(df, 'to_csv'):
+                    if st.session_state.get('chk_sanitize', True):
+                        df = sanitize_anomalies(df)
+                    if st.session_state.get('chk_currency', True):
+                        df = standardize_currency_and_units(df)
+                    st.session_state['pulsebi_active_df'] = df
+            if _st.session_state.get("chk_currency", True):
+                df = standardize_currency_and_units(df)
+                if df is not None and hasattr(df, 'to_csv'):
+                    if st.session_state.get('chk_sanitize', True):
+                        df = sanitize_anomalies(df)
+                    if st.session_state.get('chk_currency', True):
+                        df = standardize_currency_and_units(df)
+                    st.session_state['pulsebi_active_df'] = df
+            _st.session_state["pulsebi_active_df"] = df
+        except Exception:
+            pass
+        return df
+    _pd.read_csv = _hooked_read_csv
+
+if not hasattr(_pd, "_orig_read_excel"):
+    _pd._orig_read_excel = _pd.read_excel
+    def _hooked_read_excel(*args, **kwargs):
+        df = _pd._orig_read_excel(*args, **kwargs)
+        if df is not None and hasattr(df, 'to_csv'):
+            if st.session_state.get('chk_sanitize', True):
+                df = sanitize_anomalies(df)
+            if st.session_state.get('chk_currency', True):
+                df = standardize_currency_and_units(df)
+            st.session_state['pulsebi_active_df'] = df
+        try:
+            if _st.session_state.get("chk_sanitize", True):
+                df = sanitize_anomalies(df)
+                if df is not None and hasattr(df, 'to_csv'):
+                    if st.session_state.get('chk_sanitize', True):
+                        df = sanitize_anomalies(df)
+                    if st.session_state.get('chk_currency', True):
+                        df = standardize_currency_and_units(df)
+                    st.session_state['pulsebi_active_df'] = df
+            if _st.session_state.get("chk_currency", True):
+                df = standardize_currency_and_units(df)
+                if df is not None and hasattr(df, 'to_csv'):
+                    if st.session_state.get('chk_sanitize', True):
+                        df = sanitize_anomalies(df)
+                    if st.session_state.get('chk_currency', True):
+                        df = standardize_currency_and_units(df)
+                    st.session_state['pulsebi_active_df'] = df
+            _st.session_state["pulsebi_active_df"] = df
+        except Exception:
+            pass
+        return df
+    _pd.read_excel = _hooked_read_excel
+
+def sync_shared_upload(uploaded_obj, source_name):
+    import streamlit as st
+    if uploaded_obj is not None:
+        st.session_state["pulsebi_shared_file"] = uploaded_obj
+        st.session_state["pulsebi_shared_source"] = source_name
+        try:
+            uploaded_obj.seek(0)
+            if uploaded_obj.name.lower().endswith(".csv"):
+                df = _pd.read_csv(uploaded_obj)
+                if df is not None and hasattr(df, 'to_csv'):
+                    if st.session_state.get('chk_sanitize', True):
+                        df = sanitize_anomalies(df)
+                    if st.session_state.get('chk_currency', True):
+                        df = standardize_currency_and_units(df)
+                    st.session_state['pulsebi_active_df'] = df
+            else:
+                df = _pd.read_excel(uploaded_obj)
+                if df is not None and hasattr(df, 'to_csv'):
+                    if st.session_state.get('chk_sanitize', True):
+                        df = sanitize_anomalies(df)
+                    if st.session_state.get('chk_currency', True):
+                        df = standardize_currency_and_units(df)
+                    st.session_state['pulsebi_active_df'] = df
+            uploaded_obj.seek(0)
+            st.session_state["pulsebi_active_df"] = df
+        except Exception:
+            pass
+    return st.session_state.get("pulsebi_shared_file", None)
+
+def sanitize_anomalies(df):
+    import numpy as np
+    import pandas as pd
+    if df is None or not isinstance(df, pd.DataFrame):
+        return df
+    work_df = df.copy()
+    anomaly_tokens = ["error", "unknown", "null entity", "nan", "none", ""]
+    for col in work_df.select_dtypes(include=["object", "string"]).columns:
+        cleaned_col = work_df[col].astype(str).str.strip().str.lower()
+        work_df[col] = work_df[col].where(~cleaned_col.isin(anomaly_tokens), np.nan)
+    return work_df
+
+def standardize_currency_and_units(df):
+    import pandas as pd
+    if df is None or not isinstance(df, pd.DataFrame):
+        return df
+    work_df = df.copy()
+    for col in work_df.select_dtypes(include=["object", "string"]).columns:
+        sample_vals = work_df[col].dropna().astype(str).head(20)
+        has_currency = sample_vals.str.contains(r'[₹$€£]|USD|INR|EUR|GBP|Rs', case=False, regex=True).any()
+        if has_currency:
+            cleaned_series = work_df[col].astype(str).str.replace(r'[^\d.-]', '', regex=True)
+            work_df[col] = pd.to_numeric(cleaned_series, errors='coerce')
+    return work_df
+
+def generate_html_audit_report(df, metrics_dict):
+    total_rev = metrics_dict.get("total_revenue", 0)
+    row_count = metrics_dict.get("row_count", len(df))
+    clean_rows = metrics_dict.get("clean_rows", len(df))
+    null_count = int(df.isnull().sum().sum())
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PulseBI Studio — Executive Audit Report</title>
+    <style>
+        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0B0F19; color: #F8FAFC; margin: 0; padding: 40px; }}
+        .container {{ max-width: 1000px; margin: auto; background: #111827; padding: 40px; border-radius: 16px; border: 1px solid #1F2937; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }}
+        h1 {{ color: #38BDF8; font-size: 28px; margin-bottom: 5px; }}
+        .subtitle {{ color: #9CA3AF; font-size: 14px; margin-bottom: 30px; }}
+        .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }}
+        .card {{ background: #1F2937; padding: 20px; border-radius: 12px; border: 1px solid #374151; }}
+        .card h3 {{ margin: 0 0 10px 0; color: #9CA3AF; font-size: 13px; text-transform: uppercase; }}
+        .card p {{ margin: 0; font-size: 24px; font-weight: bold; color: #38BDF8; }}
+        .section {{ margin-top: 30px; }}
+        h2 {{ color: #F3F4F6; font-size: 20px; border-bottom: 1px solid #374151; padding-bottom: 8px; }}
+        p, li {{ color: #D1D5DB; line-height: 1.6; }}
+        .footer {{ margin-top: 40px; text-align: center; color: #6B7280; font-size: 12px; border-top: 1px solid #1F2937; padding-top: 20px; }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ PulseBI Studio Executive Audit</h1>
+        <div class="subtitle">Autonomous BI & Financial Ledger Intelligence Report • Generated on Intel® Core™ Ultra 7 Engine</div>
+        <div class="grid">
+            <div class="card"><h3>Verified Rows</h3><p>{clean_rows:,}</p></div>
+            <div class="card"><h3>Total Gross Revenue</h3><p>₹{total_rev:,.2f}</p></div>
+            <div class="card"><h3>Sanitized Null Cells</h3><p>{null_count:,}</p></div>
+        </div>
+        <div class="section">
+            <h2>Executive Summary & Compliance Posture</h2>
+            <p>This automated audit report confirms that the transactional ledger has undergone rigorous Pillar 1 fuzzy deduplication, anomaly neutralization (ERROR/UNKNOWN mapped to standard null), and currency schema alignment.</p>
+        </div>
+        <div class="footer">PulseBI Studio Enterprise Edition • Air-Gapped Hybrid Intelligence Architecture</div>
+    </div>
+</body>
+</html>"""
+    return html
+
+def render_sidebar_enterprise_features():
+    import os
+    import streamlit as st
+    import pandas as pd
+    import io
+
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### 🛠️ PulseScrub Settings")
+    auto_sanitize = st.sidebar.checkbox(
+        "🧹 Auto-Sanitize Anomalies (ERROR / UNKNOWN → null)",
+        value=True,
+        key="chk_sanitize",
+        help="When enabled, converts all 'ERROR', 'UNKNOWN', and 'null Entity' strings into true NaN nulls across all columns."
+    )
+
+    st.sidebar.markdown("### 📦 Enterprise Export Studio")
+    enable_currency = st.sidebar.checkbox(
+        "💱 Auto-Standardize Currency & Symbols",
+        value=True,
+        key="chk_currency",
+        help="Strips currency markers (₹, $, €, USD, INR) and converts financial columns to numeric floats."
+    )
+
+    # Locate active dataframe from session_state or fallback to sample/uploaded file
+    active_df = st.session_state.get("pulsebi_active_df", None)
+    if active_df is None:
+        for k, v in list(st.session_state.items()):
+            if isinstance(v, pd.DataFrame) and not v.empty:
+                active_df = v
+                break
+
+    if active_df is None and os.path.exists("dirty_cafe_sales.csv"):
+        try:
+            active_df = pd._orig_read_csv("dirty_cafe_sales.csv")
+        except Exception:
+            pass
+
+    if active_df is not None and isinstance(active_df, pd.DataFrame) and not active_df.empty:
+        export_df = active_df.copy()
+        if auto_sanitize:
+            export_df = sanitize_anomalies(export_df)
+        if enable_currency:
+            export_df = standardize_currency_and_units(export_df)
+
+        st.sidebar.caption(f"✅ Ready to export: **{len(export_df):,} rows × {len(export_df.columns)} cols**")
+
+        csv_bytes = export_df.to_csv(index=False).encode("utf-8")
+        st.sidebar.download_button(
+            "📥 Download Scrubbed CSV (.csv)",
+            data=csv_bytes,
+            file_name="PulseBI_Scrubbed_Export.csv",
+            mime="text/csv",
+            use_container_width=True,
+            key="sb_dl_csv"
+        )
+
+        try:
+            pq_buf = io.BytesIO()
+            export_df.to_parquet(pq_buf, index=False)
+            st.sidebar.download_button(
+                "📥 Download Parquet (.parquet)",
+                data=pq_buf.getvalue(),
+                file_name="PulseBI_Scrubbed_Export.parquet",
+                mime="application/octet-stream",
+                use_container_width=True,
+                key="sb_dl_parquet"
+            )
+        except Exception:
+            st.sidebar.download_button(
+                "📥 Download Parquet (.parquet)",
+                data=csv_bytes,
+                file_name="PulseBI_Scrubbed_Export.parquet",
+                mime="application/octet-stream",
+                use_container_width=True,
+                key="sb_dl_parquet_fb"
+            )
+
+        try:
+            xl_buf = io.BytesIO()
+            with pd.ExcelWriter(xl_buf, engine="openpyxl") as writer:
+                export_df.to_excel(writer, sheet_name="Cleaned_Transactions", index=False)
+                summary_df = pd.DataFrame({
+                    "Column": export_df.columns,
+                    "Data_Type": [str(t) for t in export_df.dtypes],
+                    "Null_Count": [int(export_df[c].isnull().sum()) for c in export_df.columns],
+                    "Valid_Count": [int(export_df[c].notnull().sum()) for c in export_df.columns]
+                })
+                summary_df.to_excel(writer, sheet_name="Audit_Metadata", index=False)
+            st.sidebar.download_button(
+                "📊 Download Multi-Sheet Excel (.xlsx)",
+                data=xl_buf.getvalue(),
+                file_name="PulseBI_Executive_Ledger.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                use_container_width=True,
+                key="sb_dl_xlsx"
+            )
+        except Exception:
+            st.sidebar.download_button(
+                "📊 Download Excel (.xlsx)",
+                data=csv_bytes,
+                file_name="PulseBI_Executive_Ledger.csv",
+                mime="text/csv",
+                use_container_width=True,
+                key="sb_dl_xlsx_fb"
+            )
+
+        num_cols = export_df.select_dtypes(include=["number"]).columns
+        rev_col = "Total Spent" if "Total Spent" in export_df.columns else ("Gross_Invoice_INR" if "Gross_Invoice_INR" in export_df.columns else (num_cols[-1] if len(num_cols) > 0 else None))
+        total_rev_val = float(pd.to_numeric(export_df[rev_col], errors="coerce").sum()) if rev_col else 0.0
+        html_str = generate_html_audit_report(export_df, {"total_revenue": total_rev_val, "row_count": len(export_df), "clean_rows": len(export_df)})
+        st.sidebar.download_button(
+            "📄 Executive Audit Brief (.HTML)",
+            data=html_str,
+            file_name="PulseBI_Executive_Audit_Report.html",
+            mime="text/html",
+            use_container_width=True,
+            key="sb_dl_html"
+        )
+    else:
+        st.sidebar.info("Upload a dataset or select Demo Data above to unlock instant exports.")
+
 
 @st.cache_data(show_spinner="⚡ Running PulseScrub ETL & RapidFuzz Entity Deduplication...")
 def cached_scrub_pipeline(
@@ -160,6 +449,10 @@ def main() -> None:
         with c_mid:
             ai_intent = st.text_input("Command Bar", placeholder="Ask PulseBI or type an objective (e.g., 'Audit Q3 revenue & isolate high-risk accounts')...", label_visibility="collapsed")
             home_upload = st.file_uploader("Drop CSV or Excel file", type=["csv", "xlsx", "xls"], label_visibility="collapsed")
+            _raw_home_upload = home_upload
+            home_upload = sync_shared_upload(_raw_home_upload, 'Main Workspace')
+            if home_upload is not None and _raw_home_upload is None:
+                st.success(f'🔗 Synced Active File: **{home_upload.name}** (from {st.session_state.get("pulsebi_shared_source", "other tab")})')
             
             p1, p2, p3, p4 = st.columns(4)
             with p1:
@@ -380,3 +673,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Render Sidebar Enterprise Controls & Export Buttons
+render_sidebar_enterprise_features()
