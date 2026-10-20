@@ -1,7 +1,9 @@
 @echo off
-title PulseBI Studio - Local Engine
-cd /d "C:\Users\Vivaan Kesarwani\pulsebi-studio"
-call "C:\Users\Vivaan Kesarwani\pulsebi-studio\.venv\Scripts\activate.bat"
-echo Starting PulseBI Studio...
-streamlit run app.py
+title PulseBI Studio ? Autonomous BI Engine (Offline & Online)
+cd /d "%~dp0"
+echo ===================================================
+echo   Launching PulseBI Studio (Hybrid Offline/Online)
+echo ===================================================
+call .venv\Scripts\activate.bat
+streamlit run app.py --browser.gatherUsageStats=false
 pause
