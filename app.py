@@ -1285,35 +1285,40 @@ def _generate_chart_insights_markdown(fig, chart_title=""):
             "• Focus on the biggest bars to see what works best in your business!"
         )
 
-# Ensure we always wrap from the true unhooked Streamlit plotly_chart function
-for _attr in ["_orig_plotly_chart_pe", "_orig_plotly_chart_master"]:
-    if hasattr(_st, _attr):
-        _st.plotly_chart = getattr(_st, _attr)
-        break
-
-_st._true_base_plotly_chart = _st.plotly_chart
+if not hasattr(_st, "_absolute_orig_plotly_chart"):
+    _st._absolute_orig_plotly_chart = _st.plotly_chart
 
 def _buddy_plotly_chart_wrapper(figure_or_data, *args, **kwargs):
     import streamlit as st
-    c_title = ""
+    
+    # 🛡️ Hot-Reload Recursion Lock
+    if getattr(st, "_in_buddy_wrapper", False):
+        return
+    st._in_buddy_wrapper = True
+    
     try:
-        if hasattr(figure_or_data, "layout") and hasattr(figure_or_data.layout, "title") and figure_or_data.layout.title.text:
-            c_title = str(figure_or_data.layout.title.text)
-    except Exception:
-        pass
+        c_title = ""
+        try:
+            if hasattr(figure_or_data, "layout") and hasattr(figure_or_data.layout, "title") and figure_or_data.layout.title.text:
+                c_title = str(figure_or_data.layout.title.text)
+        except Exception:
+            pass
 
-    explanation_md = _generate_chart_insights_markdown(figure_or_data, c_title)
-    res = _st._true_base_plotly_chart(figure_or_data, *args, **kwargs)
+        explanation_md = _generate_chart_insights_markdown(figure_or_data, c_title)
+        res = _st._absolute_orig_plotly_chart(figure_or_data, *args, **kwargs)
 
-    try:
-        with st.popover("💬 What Does This Chart Mean? (Click to Ask AI Buddy)", use_container_width=False):
-            st.markdown(explanation_md)
-    except Exception:
-        with st.expander("💬 What Does This Chart Mean? (Click to Ask AI Buddy)", expanded=False):
-            st.markdown(explanation_md)
-    return res
+        try:
+            with st.popover("💬 What Does This Chart Mean? (Click to Ask AI Buddy)", use_container_width=False):
+                st.markdown(explanation_md)
+        except Exception:
+            with st.expander("💬 What Does This Chart Mean? (Click to Ask AI Buddy)", expanded=False):
+                st.markdown(explanation_md)
+        return res
+    finally:
+        st._in_buddy_wrapper = False
 
-_st.plotly_chart = _buddy_plotly_chart_wrapper
+if getattr(_st.plotly_chart, "__name__", "") != "_buddy_plotly_chart_wrapper":
+    _st.plotly_chart = _buddy_plotly_chart_wrapper
 
 def inject_modebar_explain_button_js(df):
     import pandas as pd
